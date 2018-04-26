@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on Budzyński Maciej - blog</title>
+    <link>https://blog.budzynskimaciej.pl/tags/golang/</link>
+    <description>Recent content in Golang on Budzyński Maciej - blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-PL</language>
+    <copyright>Copyright (c) 2018, wszelkie prawa zastrzeżone.</copyright>
+    <lastBuildDate>Mon, 24 Jul 2017 15:04:50 +0200</lastBuildDate>
+    
+	<atom:link href="https://blog.budzynskimaciej.pl/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jaki język programowania wybrać na początek, czyli multi-Hello World</title>
+      <link>https://blog.budzynskimaciej.pl/post/helloworld/</link>
+      <pubDate>Mon, 24 Jul 2017 15:04:50 +0200</pubDate>
+      
+      <guid>https://blog.budzynskimaciej.pl/post/helloworld/</guid>
+      <description>&lt;p&gt;Zastanawiasz sie nad wyborem języka programowania? Nie masz pojęcia który z nich wybrać?
+W takim razie ten post jest dla Ciebie. Przygotowałem w nim krótkie opisy różnych języków
+programowania oraz podstawowy kod programu Hello World.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Blog oparty o generator stron statycznych Hugo</title>
+      <link>https://blog.budzynskimaciej.pl/post/blog/</link>
+      <pubDate>Fri, 07 Jul 2017 09:40:20 +0200</pubDate>
+      
+      <guid>https://blog.budzynskimaciej.pl/post/blog/</guid>
+      <description>&lt;p&gt;W aktualnych czasach każdy posiada swoją stronę w internecie. Ja postanowiłem założyć bloga
+opartego o technologię Hugo.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

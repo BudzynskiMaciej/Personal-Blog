@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43; on Budzyński Maciej - blog</title>
+    <link>https://blog.budzynskimaciej.pl/tags/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on Budzyński Maciej - blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-PL</language>
+    <copyright>Copyright (c) 2018, wszelkie prawa zastrzeżone.</copyright>
+    <lastBuildDate>Mon, 24 Jul 2017 15:04:50 +0200</lastBuildDate>
+    
+	<atom:link href="https://blog.budzynskimaciej.pl/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jaki język programowania wybrać na początek, czyli multi-Hello World</title>
+      <link>https://blog.budzynskimaciej.pl/post/helloworld/</link>
+      <pubDate>Mon, 24 Jul 2017 15:04:50 +0200</pubDate>
+      
+      <guid>https://blog.budzynskimaciej.pl/post/helloworld/</guid>
+      <description>&lt;p&gt;Zastanawiasz sie nad wyborem języka programowania? Nie masz pojęcia który z nich wybrać?
+W takim razie ten post jest dla Ciebie. Przygotowałem w nim krótkie opisy różnych języków
+programowania oraz podstawowy kod programu Hello World.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

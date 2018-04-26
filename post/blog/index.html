@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="Maciej Budzynski" />
+<meta name="description" content="Blog programisty" />
+<meta name="keywords" content="blog, tech, IT, programming, budzynski, maciej, budzynskimaciej" />
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.38.2" />
+
+<link rel="canonical" href="https://blog.budzynskimaciej.pl/post/blog/">
+<base href="https://blog.budzynskimaciej.pl" />
+<meta property="og:title" content="Blog oparty o generator stron statycznych Hugo" />
+<meta property="og:description" content="W aktualnych czasach każdy posiada swoją stronę w internecie. Ja postanowiłem założyć bloga
+opartego o technologię Hugo.
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.budzynskimaciej.pl/post/blog/" />
+
+
+
+<meta property="article:published_time" content="2017-07-07T09:40:20&#43;02:00"/>
+
+<meta property="article:modified_time" content="2017-07-07T09:40:20&#43;02:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Blog oparty o generator stron statycznych Hugo"/>
+<meta name="twitter:description" content="W aktualnych czasach każdy posiada swoją stronę w internecie. Ja postanowiłem założyć bloga
+opartego o technologię Hugo.
+
+"/>
+
+
+
+<meta itemprop="name" content="Blog oparty o generator stron statycznych Hugo">
+<meta itemprop="description" content="W aktualnych czasach każdy posiada swoją stronę w internecie. Ja postanowiłem założyć bloga
+opartego o technologię Hugo.
+
+">
+
+
+<meta itemprop="datePublished" content="2017-07-07T09:40:20&#43;02:00" />
+<meta itemprop="dateModified" content="2017-07-07T09:40:20&#43;02:00" />
+<meta itemprop="wordCount" content="351">
+
+
+
+<meta itemprop="keywords" content="golang,hugo,wordpress,blog,story," />
+
+
+<link rel="stylesheet" href="css/layout.css" />
+<link rel="stylesheet" href="css/color-dark.css" />
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-89868475-2', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+<title>
+
+
+     Blog oparty o generator stron statycznych Hugo 
+
+</title>
+
+<script src="js/highlight.min.js"></script>
+<link rel="stylesheet" href="css/tomorrow-night.min.css" />
+<script>hljs.initHighlightingOnLoad();</script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2680675523084485",
+    enable_page_level_ads: true
+  });
+</script>
+</head>
+
+
+<body>
+<div class="main">
+<header>
+
+<div class="header-bar">
+
+  <nav>
+    <div class="siteTitle">
+      <a href="https://blog.budzynskimaciej.pl">Budzyński Maciej - blog</a>
+    </div> 
+
+    
+    
+    <a class="nav-item" href="https://blog.budzynskimaciej.pl/post/"><div class="nav-item-title">Posty</div></a>
+    
+    <a class="nav-item" href="https://blog.budzynskimaciej.pl/tags/"><div class="nav-item-title">Tagi</div></a>
+    
+    <a class="nav-item" href="https://blog.budzynskimaciej.pl/about/"><div class="nav-item-title">O mnie</div></a>
+    
+    <a class="nav-item" href="https://blog.budzynskimaciej.pl/projects/"><div class="nav-item-title">Projekty</div></a>
+    
+
+  </nav>
+</div>
+
+</header>
+
+
+<article class="post">
+    <h1 class="title"> Blog oparty o generator stron statycznych Hugo </h1>
+    <div class="content"> <p>W aktualnych czasach każdy posiada swoją stronę w internecie. Ja postanowiłem założyć bloga
+opartego o technologię Hugo.</p>
+
+<p></p>
+
+<h2 id="początki-blogowania">Początki blogowania</h2>
+
+<p>Swoją przygodę rozpocząłem z blogiem stworzonym za pomocą <strong>Wordpress</strong>a. Możliwość konfiguracji,
+ilość szablonów, dodatków to wszystko przytłaczało. Wordpress był bardzo prostm narzędziem,
+jednak miał też kilka wad, wymagał PHP oraz Bazy Danych, a wraz z rozrostem strony zwiększał się
+jej czas ładowania. W dodatku darmowy hosting nie mógł utrzymać dużego ruchu na stronach.</p>
+
+<h2 id="generatory-stron-statycznych">Generatory stron statycznych</h2>
+
+<p>Wtedy zaznajomiłem się z narzędziami do generowania stron statycznych. Rozpocząłem od wykorzystania
+najpopularniejszego z nich <strong>Jekyll</strong>a. I tu pojawiły się pierwsze problemy. Jako użytkownik Windowsa
+zacząłem mieć problemy z konfiguracją i instalacją <strong>Ruby</strong>. Problemy z certyfikatami, problemy z
+bundlerem, z aktualizacją dodatków jak i samego <strong>Jekyll</strong>a. Mimo, iż <strong>Jekyll</strong> to potężne narzędzie
+pozwalające instalować dodatki i dowolnie modyfikować wygląd strony, jednak Ruby + Windows = Męczarnia.</p>
+
+<h2 id="hugo-generator-stron-statycznych-oparty-o-golang">Hugo, generator stron statycznych oparty o GoLang</h2>
+
+<p>Postanowiłem poszukać alternatywy do <strong>Jekyll</strong>a i w ten sposób natrafiłem na Hugo, a właściwie goHugo
+(wpisanie samej frazy Hugo może wiązać się ze znalezieniem znanego z interaktywnego programu telewizyjnego
+dla dzieci trolem imieniem Hugo)<img src="https://lh3.googleusercontent.com/TfWnTBtz0eNVqKmeIchhQ4KJ1MBsFfyHr79oSZNVs79LNzaWPZkPY2TAU8y3vkUw7F0Y=w300" alt="Hugo" />
+<strong>Hugo</strong> jest podobnie jak <strong>Jekyl</strong> generatorem stron statycznych, jednak napisanym w kompilowanym języku
+<strong>GoLang</strong>. Nie musimy znać się absolutnie na <strong>Go</strong> by móc korzystać z <strong>Hugo</strong>. Jedyna wiedza jakiej
+potrzebujemy to ta związana z <strong>HTML</strong> i <strong>CSS</strong> jeśli chcemy edytować, bądź tworzyć własne szablony oraz
+<strong>Markdown</strong> do pisania naszych postów.</p>
+
+<table>
+<thead>
+<tr>
+<th align="center">Zalety</th>
+<th align="center">Wady</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">col 3 is</td>
+<td align="center">right-aligned</td>
+</tr>
+
+<tr>
+<td align="center">col 2 is</td>
+<td align="center">centered</td>
+</tr>
+
+<tr>
+<td align="center">zebra stripes</td>
+<td align="center">are neat</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="rozpoczęcie-przygody-z-hugo">Rozpoczęcie przygody z Hugo</h2>
+
+<p>Aby rozpocząć przygodę z Hugo należy <a href="https://github.com/gohugoio/hugo/releases" title="Hugo Download Page">pobrać jego najnowszą wersję z repozytorium na GitHub</a>.
+Stamtąd pobieramy najnowszą wersję w zależności od posiadanego systemu operacyjnego:
+<em>W moim przypadku na dzień pisania newsa jest to wersja hugo_0.24.1_Windows-64bit.zip</em>
+Na Windows wystarczy wypakować plik hugo.exe w dowolnym miejscu: <em>Polecam C:/Hugo/</em>
+Po czym musimy dodać katalog zawierający wyżej wymieniony plik do zmiennej środowiskowej <strong>PATH</strong>. Jeśli
+wszystko zrobiliśmy poprawnie powinna zadziałać komenda <em>hugo help</em>. w przypadku problemów odsyłam was do
+<a href="https://gohugo.io/tutorials/installing-on-windows/" title="Hugo - Installing on Windows">oficjalnej dokumentacji Hugo związaną z jego instalacją na systemie Windows w języku angielskim</a>.</p>
+
+<h4 id="na-koniec-zostawiam-film-związany-z-szybką-instalacją-i-aktywacją-naszego-pierwszego-bloga-w-hugo">Na koniec zostawiam film związany z szybką instalacją i aktywacją naszego pierwszego bloga w Hugo</h4>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/w7Ft2ymGmfc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+ </div> </div>
+    <footer class="post-footer">
+
+  <div class="post-footer-data">
+    
+<div class="tags">
+    
+      <div class="tag">
+        <a href="https://blog.budzynskimaciej.pl/tags/golang">#golang</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://blog.budzynskimaciej.pl/tags/hugo">#hugo</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://blog.budzynskimaciej.pl/tags/wordpress">#wordpress</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://blog.budzynskimaciej.pl/tags/blog">#blog</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://blog.budzynskimaciej.pl/tags/story">#story</a>
+      </div>
+    
+</div>
+
+    <div class="date"> 7 Lipiec 2017 </div>
+  </div>
+
+</footer>
+
+
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'budzynskimaciej';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>
+  Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+</article>
+
+  <footer>
+
+  <div class="social-links-footer">
+
+  
+  <a href="mailto:maciej.budzynski@spoko.pl"><div class="social-link">Email</div></a>
+  
+
+  
+  <a href="https://github.com/BudzynskiMaciej" target="_blank"><div class="social-link">GitHub</div></a>
+  
+
+  
+  <a href="https://www.facebook.com/maciej.budzynski1" target="_blank"><div class="social-link">Facebook</div></a>
+  
+
+  
+  <a href="https://twitter.com/BudynLBN" target="_blank"><div class="social-link">Twitter</div></a>
+  
+
+  
+  <a href="https://www.linkedin.com/in/maciej-budzy%c5%84ski-206811127" target="_blank"><div class="social-link">LinkedIn</div></a>
+  
+
+  <div class="social-link">
+  <a href="https://blog.budzynskimaciej.pl/index.xml" target="_blank">RSS</a>
+  </div>
+
+</div>
+
+
+  <div class="copyright"> Copyright (c) 2018, wszelkie prawa zastrzeżone. </div>
+
+  <div class="poweredby">
+    Blog napędzany przez <a href="https://gohugo.io/">Hugo</a>.
+  </div>
+
+  </footer>
+
+</body>
+</html>
+

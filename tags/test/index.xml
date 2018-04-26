@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on Budzyński Maciej - blog</title>
+    <link>https://blog.budzynskimaciej.pl/tags/test/</link>
+    <description>Recent content in Test on Budzyński Maciej - blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-PL</language>
+    <copyright>Copyright (c) 2018, wszelkie prawa zastrzeżone.</copyright>
+    <lastBuildDate>Tue, 20 Jun 2017 15:47:26 +0200</lastBuildDate>
+    
+	<atom:link href="https://blog.budzynskimaciej.pl/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://blog.budzynskimaciej.pl/post/hello/</link>
+      <pubDate>Tue, 20 Jun 2017 15:47:26 +0200</pubDate>
+      
+      <guid>https://blog.budzynskimaciej.pl/post/hello/</guid>
+      <description>&lt;p&gt;This is sample post with java code, youtube video, tweet and instagram photo.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Welcome to Hugo</title>
+      <link>https://blog.budzynskimaciej.pl/post/welcome/</link>
+      <pubDate>Tue, 20 Jun 2017 10:11:33 +0200</pubDate>
+      
+      <guid>https://blog.budzynskimaciej.pl/post/welcome/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat rutrum tortor, vel scelerisque neque tristique vel. Phasellus vulputate at magna non consequat. Curabitur molestie aliquam hendrerit. Phasellus non tempor ipsum. Etiam cursus quam non dolor aliquam ultricies sed sit amet ligula. Phasellus ac neque in sapien consequat consectetur vel vel urna. Quisque lobortis, ante eu pharetra semper, dui nisl vehicula sem, at vestibulum massa arcu id elit. Proin sed libero a lacus volutpat maximus in sit amet nisl.</description>
+    </item>
+    
+  </channel>
+</rss>
