@@ -18,8 +18,8 @@
       <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/projects/</guid>
-      <description>Moje Projekty Większość moich publicznych projektów znajduje się na moim koncie na GitHub.
-Strona Internetowa na zaliczenie przedmiotu File Downloader Program napisany w Java z wykorzystaniem technologii JavaFX, służący do pobierania plików z internetu</description>
+      <description> Moje Projekty Większość moich publicznych projektów znajduje się na moim koncie na GitHub.
+Strona w Budowie </description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@ Strona Internetowa na zaliczenie przedmiotu File Downloader Program napisany w J
       <pubDate>Tue, 20 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/about/</guid>
-      <description>Hugo is a static site engine written in Go.
+      <description>Ta strona będzie zawierać informacje o mnie Ale narazie jest w budowie i zawiera zlepek losowych informacji.
 It makes use of a variety of open source projects including:
  Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.
 Setup Some fun facts about Hugo:
@@ -36,22 +36,9 @@ Setup Some fun facts about Hugo:
     </item>
     
     <item>
-      <title>Jaki język programowania wybrać na początek, czyli multi-Hello World</title>
-      <link>https://blog.budzynskimaciej.pl/post/helloworld/</link>
-      <pubDate>Mon, 24 Jul 2017 15:04:50 +0200</pubDate>
-      
-      <guid>https://blog.budzynskimaciej.pl/post/helloworld/</guid>
-      <description>&lt;p&gt;Zastanawiasz sie nad wyborem języka programowania? Nie masz pojęcia który z nich wybrać?
-W takim razie ten post jest dla Ciebie. Przygotowałem w nim krótkie opisy różnych języków
-programowania oraz podstawowy kod programu Hello World.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Blog oparty o generator stron statycznych Hugo</title>
       <link>https://blog.budzynskimaciej.pl/post/blog/</link>
-      <pubDate>Fri, 07 Jul 2017 09:40:20 +0200</pubDate>
+      <pubDate>Sat, 28 Apr 2018 16:40:20 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/post/blog/</guid>
       <description>&lt;p&gt;W aktualnych czasach każdy posiada swoją stronę w internecie. Ja postanowiłem założyć bloga
@@ -61,23 +48,16 @@ opartego o technologię Hugo.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Hello World</title>
-      <link>https://blog.budzynskimaciej.pl/post/hello/</link>
-      <pubDate>Tue, 20 Jun 2017 15:47:26 +0200</pubDate>
+      <title>Jaki język programowania wybrać na początek, czyli multi-Hello World</title>
+      <link>https://blog.budzynskimaciej.pl/post/helloworld/</link>
+      <pubDate>Sat, 28 Apr 2018 15:04:50 +0200</pubDate>
       
-      <guid>https://blog.budzynskimaciej.pl/post/hello/</guid>
-      <description>&lt;p&gt;This is sample post with java code, youtube video, tweet and instagram photo.&lt;/p&gt;
+      <guid>https://blog.budzynskimaciej.pl/post/helloworld/</guid>
+      <description>&lt;p&gt;Zastanawiasz sie nad wyborem języka programowania? Nie masz pojęcia który z nich wybrać?
+W takim razie ten post jest dla Ciebie. Przygotowałem w nim krótkie opisy różnych języków
+programowania oraz podstawowy kod programu Hello World.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Welcome to Hugo</title>
-      <link>https://blog.budzynskimaciej.pl/post/welcome/</link>
-      <pubDate>Tue, 20 Jun 2017 10:11:33 +0200</pubDate>
-      
-      <guid>https://blog.budzynskimaciej.pl/post/welcome/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat rutrum tortor, vel scelerisque neque tristique vel. Phasellus vulputate at magna non consequat. Curabitur molestie aliquam hendrerit. Phasellus non tempor ipsum. Etiam cursus quam non dolor aliquam ultricies sed sit amet ligula. Phasellus ac neque in sapien consequat consectetur vel vel urna. Quisque lobortis, ante eu pharetra semper, dui nisl vehicula sem, at vestibulum massa arcu id elit. Proin sed libero a lacus volutpat maximus in sit amet nisl.</description>
     </item>
     
   </channel>

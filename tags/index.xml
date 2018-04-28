@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
     <copyright>Copyright (c) 2018, wszelkie prawa zastrzeżone.</copyright>
-    <lastBuildDate>Fri, 07 Jul 2017 09:40:20 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 28 Apr 2018 16:40:20 +0200</lastBuildDate>
     
 	<atom:link href="https://blog.budzynskimaciej.pl/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Blog</title>
       <link>https://blog.budzynskimaciej.pl/tags/blog/</link>
-      <pubDate>Fri, 07 Jul 2017 09:40:20 +0200</pubDate>
+      <pubDate>Sat, 28 Apr 2018 16:40:20 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/tags/blog/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>C</title>
       <link>https://blog.budzynskimaciej.pl/tags/c/</link>
-      <pubDate>Mon, 24 Jul 2017 15:04:50 +0200</pubDate>
+      <pubDate>Sat, 28 Apr 2018 15:04:50 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/tags/c/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>C#</title>
       <link>https://blog.budzynskimaciej.pl/tags/c#/</link>
-      <pubDate>Mon, 24 Jul 2017 15:04:50 +0200</pubDate>
+      <pubDate>Sat, 28 Apr 2018 15:04:50 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/tags/c#/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>C&#43;&#43;</title>
       <link>https://blog.budzynskimaciej.pl/tags/c&#43;&#43;/</link>
-      <pubDate>Mon, 24 Jul 2017 15:04:50 +0200</pubDate>
+      <pubDate>Sat, 28 Apr 2018 15:04:50 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/tags/c&#43;&#43;/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>Golang</title>
       <link>https://blog.budzynskimaciej.pl/tags/golang/</link>
-      <pubDate>Mon, 24 Jul 2017 15:04:50 +0200</pubDate>
+      <pubDate>Sat, 28 Apr 2018 16:40:20 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/tags/golang/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>Haskel</title>
       <link>https://blog.budzynskimaciej.pl/tags/haskel/</link>
-      <pubDate>Mon, 24 Jul 2017 15:04:50 +0200</pubDate>
+      <pubDate>Sat, 28 Apr 2018 15:04:50 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/tags/haskel/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>Hugo</title>
       <link>https://blog.budzynskimaciej.pl/tags/hugo/</link>
-      <pubDate>Fri, 07 Jul 2017 09:40:20 +0200</pubDate>
+      <pubDate>Sat, 28 Apr 2018 16:40:20 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/tags/hugo/</guid>
       <description></description>
@@ -78,7 +78,7 @@
     <item>
       <title>Java</title>
       <link>https://blog.budzynskimaciej.pl/tags/java/</link>
-      <pubDate>Mon, 24 Jul 2017 15:04:50 +0200</pubDate>
+      <pubDate>Sat, 28 Apr 2018 15:04:50 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/tags/java/</guid>
       <description></description>
@@ -87,34 +87,16 @@
     <item>
       <title>Javascript</title>
       <link>https://blog.budzynskimaciej.pl/tags/javascript/</link>
-      <pubDate>Mon, 24 Jul 2017 15:04:50 +0200</pubDate>
+      <pubDate>Sat, 28 Apr 2018 15:04:50 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Lorem Ipsum</title>
-      <link>https://blog.budzynskimaciej.pl/tags/lorem-ipsum/</link>
-      <pubDate>Tue, 20 Jun 2017 10:11:33 +0200</pubDate>
-      
-      <guid>https://blog.budzynskimaciej.pl/tags/lorem-ipsum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Poradnik</title>
-      <link>https://blog.budzynskimaciej.pl/tags/poradnik/</link>
-      <pubDate>Tue, 20 Jun 2017 15:47:26 +0200</pubDate>
-      
-      <guid>https://blog.budzynskimaciej.pl/tags/poradnik/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Programming</title>
       <link>https://blog.budzynskimaciej.pl/tags/programming/</link>
-      <pubDate>Mon, 24 Jul 2017 15:04:50 +0200</pubDate>
+      <pubDate>Sat, 28 Apr 2018 15:04:50 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/tags/programming/</guid>
       <description></description>
@@ -123,7 +105,7 @@
     <item>
       <title>Python</title>
       <link>https://blog.budzynskimaciej.pl/tags/python/</link>
-      <pubDate>Mon, 24 Jul 2017 15:04:50 +0200</pubDate>
+      <pubDate>Sat, 28 Apr 2018 15:04:50 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/tags/python/</guid>
       <description></description>
@@ -132,25 +114,16 @@
     <item>
       <title>Story</title>
       <link>https://blog.budzynskimaciej.pl/tags/story/</link>
-      <pubDate>Fri, 07 Jul 2017 09:40:20 +0200</pubDate>
+      <pubDate>Sat, 28 Apr 2018 16:40:20 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/tags/story/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Test</title>
-      <link>https://blog.budzynskimaciej.pl/tags/test/</link>
-      <pubDate>Tue, 20 Jun 2017 15:47:26 +0200</pubDate>
-      
-      <guid>https://blog.budzynskimaciej.pl/tags/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Wordpress</title>
       <link>https://blog.budzynskimaciej.pl/tags/wordpress/</link>
-      <pubDate>Fri, 07 Jul 2017 09:40:20 +0200</pubDate>
+      <pubDate>Sat, 28 Apr 2018 16:40:20 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/tags/wordpress/</guid>
       <description></description>

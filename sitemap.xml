@@ -13,28 +13,18 @@
   </url>
   
   <url>
-    <loc>https://blog.budzynskimaciej.pl/post/helloworld/</loc>
-    <lastmod>2017-07-24T15:04:50+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.budzynskimaciej.pl/post/blog/</loc>
-    <lastmod>2017-07-07T09:40:20+02:00</lastmod>
+    <lastmod>2018-04-28T16:40:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.budzynskimaciej.pl/post/hello/</loc>
-    <lastmod>2017-06-20T15:47:26+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.budzynskimaciej.pl/post/welcome/</loc>
-    <lastmod>2017-06-20T10:11:33+02:00</lastmod>
+    <loc>https://blog.budzynskimaciej.pl/post/helloworld/</loc>
+    <lastmod>2018-04-28T15:04:50+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/tags/blog/</loc>
-    <lastmod>2017-07-07T09:40:20+02:00</lastmod>
+    <lastmod>2018-04-28T16:40:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -46,19 +36,19 @@
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/tags/c/</loc>
-    <lastmod>2017-07-24T15:04:50+02:00</lastmod>
+    <lastmod>2018-04-28T15:04:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/tags/c#/</loc>
-    <lastmod>2017-07-24T15:04:50+02:00</lastmod>
+    <lastmod>2018-04-28T15:04:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/tags/c&#43;&#43;/</loc>
-    <lastmod>2017-07-24T15:04:50+02:00</lastmod>
+    <lastmod>2018-04-28T15:04:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -69,109 +59,85 @@
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/tags/golang/</loc>
-    <lastmod>2017-07-24T15:04:50+02:00</lastmod>
+    <lastmod>2018-04-28T16:40:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/tags/haskel/</loc>
-    <lastmod>2017-07-24T15:04:50+02:00</lastmod>
+    <lastmod>2018-04-28T15:04:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/tags/hugo/</loc>
-    <lastmod>2017-07-07T09:40:20+02:00</lastmod>
+    <lastmod>2018-04-28T16:40:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/tags/java/</loc>
-    <lastmod>2017-07-24T15:04:50+02:00</lastmod>
+    <lastmod>2018-04-28T15:04:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/tags/javascript/</loc>
-    <lastmod>2017-07-24T15:04:50+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.budzynskimaciej.pl/tags/lorem-ipsum/</loc>
-    <lastmod>2017-06-20T10:11:33+02:00</lastmod>
+    <lastmod>2018-04-28T15:04:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/categories/opinia/</loc>
-    <lastmod>2017-07-07T09:40:20+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.budzynskimaciej.pl/tags/poradnik/</loc>
-    <lastmod>2017-06-20T15:47:26+02:00</lastmod>
+    <lastmod>2018-04-28T16:40:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/categories/poradnik/</loc>
-    <lastmod>2017-07-24T15:04:50+02:00</lastmod>
+    <lastmod>2018-04-28T16:40:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/post/</loc>
-    <lastmod>2017-07-24T15:04:50+02:00</lastmod>
+    <lastmod>2018-04-28T16:40:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/tags/programming/</loc>
-    <lastmod>2017-07-24T15:04:50+02:00</lastmod>
+    <lastmod>2018-04-28T15:04:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/categories/programming/</loc>
-    <lastmod>2017-07-24T15:04:50+02:00</lastmod>
+    <lastmod>2018-04-28T15:04:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/tags/python/</loc>
-    <lastmod>2017-07-24T15:04:50+02:00</lastmod>
+    <lastmod>2018-04-28T15:04:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/tags/story/</loc>
-    <lastmod>2017-07-07T09:40:20+02:00</lastmod>
+    <lastmod>2018-04-28T16:40:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/tags/</loc>
-    <lastmod>2017-07-07T09:40:20+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.budzynskimaciej.pl/tags/test/</loc>
-    <lastmod>2017-06-20T15:47:26+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.budzynskimaciej.pl/categories/test/</loc>
-    <lastmod>2017-06-20T15:47:26+02:00</lastmod>
+    <lastmod>2018-04-28T16:40:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/tags/wordpress/</loc>
-    <lastmod>2017-07-07T09:40:20+02:00</lastmod>
+    <lastmod>2018-04-28T16:40:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
