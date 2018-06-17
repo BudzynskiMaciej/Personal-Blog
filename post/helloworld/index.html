@@ -7,7 +7,7 @@
 <meta name="description" content="Blog programisty" />
 <meta name="keywords" content="blog, tech, IT, programming, budzynski, maciej, budzynskimaciej" />
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-<meta name="generator" content="Hugo 0.39" />
+<meta name="generator" content="Hugo 0.40.3" />
 
 <link rel="canonical" href="https://blog.budzynskimaciej.pl/post/helloworld/">
 <base href="https://blog.budzynskimaciej.pl" />
@@ -56,11 +56,11 @@ programowania oraz podstawowy kod programu Hello World.
 
 <meta itemprop="datePublished" content="2018-04-28T15:04:50&#43;02:00" />
 <meta itemprop="dateModified" content="2018-04-28T15:04:50&#43;02:00" />
-<meta itemprop="wordCount" content="104">
+<meta itemprop="wordCount" content="578">
 
 
 
-<meta itemprop="keywords" content="golang,javascript,java,c#,c&#43;&#43;,c,python,haskel,programming," />
+<meta itemprop="keywords" content="golang,javascript,java,c#,c&#43;&#43;,c,python,ruby,php,haskel,programming," />
 
 
 <link rel="stylesheet" href="css/layout.css" />
@@ -140,10 +140,22 @@ func main(){
 }
 </code></pre>
 
+<p>Statycznie typowany, wieloparadygmatowy język programowania opracowany przez pracowników
+Google Roberta Griesemera, Roba Pike&rsquo;a oraz Kena Thompsona w 2009 roku. Posiada wbudowany
+Kolektor Śmieci (ang. Garbage Collector). Znacząco ułatwia programowanie współbierzne,
+dzięki tak zwanym GoRutines. Funkcje mogą zwracać więcej niż jeden wynik. Niestety na
+chwilę obecną Go 1.10 nie wspiera typów generycznych.</p>
+
 <h2 id="javascript">JavaScript</h2>
 
 <pre><code class="language-javascript">console.log(&quot;Hello World&quot;);
 </code></pre>
+
+<p>Język frontendu. Wymagany podczas pisania aplikacji internetowych. Służy do tworzenia
+interaktywnych widoków na stronach WWW. Typowany dynamicznie (kacze typowanie),
+wieloparadygmatowy, oparty na prototypach język programowania opracowany przez firmę
+Netscape w 1995 roku. Dzięki swojej serwerowej implementacji NodeJS posiada ogromną
+bibliotekę frameworków między innymi Angular od Google oraz React od Facebooka.</p>
 
 <h2 id="java">Java</h2>
 
@@ -153,6 +165,13 @@ func main(){
     }
 }
 </code></pre>
+
+<p>Język w pełni obiektowy, typowany statycznie. Obecnie jest to jeden z najpopularniejszych
+języków programowania w którym można znaleźć pracę bez większych problemów. Stworzony
+w 1995 przez Sun Microsystems. Jego główne zastosowanie to aplikacje webowe klasy
+enterprise. Często wykorzystuje się przy nim Spring Framework do tworzenia aplikacji.
+Java powstała  z myślą niezależności od architektury, dzięki czemu możemy uruchomić
+ją na każdej maszynie posiadającą wirtualną maszynę Javy.</p>
 
 <h2 id="c">C#</h2>
 
@@ -165,18 +184,12 @@ func main(){
 }
 </code></pre>
 
-<h2 id="c-1">C++</h2>
+<p>Odpowiedź Microsoftu na Javę. Również stworzony jako w pełni obiektowy, statycznie
+typowany język programowamnia. Posiada wiele elementów języka C++ oraz Javy.
+Wirtualna maszyna .NET pozwala na uruchomienie na wielu systemach, głównie za sprawą
+.NET Core</p>
 
-<pre><code class="language-c++">#include &lt;iostream.h&gt;
-
-main()
-{
-    cout &lt;&lt; &quot;Hello World!&quot; &lt;&lt; endl;
-    return 0;
-}
-</code></pre>
-
-<h2 id="c-2">C</h2>
+<h2 id="c-1">C</h2>
 
 <pre><code class="language-c">#include &lt;stdio.h&gt;
 
@@ -186,15 +199,70 @@ main()
 }
 </code></pre>
 
+<p>Jeden z najstarszych języków, obecnie wykorzystywany przy pisaniu mikrokontrolerów.
+Obecnie też stosuje się go przy rozwoju jądra Linux. Nie posiada klas, jednak jest
+niewielkich rozmiarów i potrafi się kompilować na każdej platformie. Jest to język
+statycznie typowany.</p>
+
+<h2 id="c-2">C++</h2>
+
+<pre><code class="language-c++">#include &lt;iostream.h&gt;
+
+int main()
+{
+    cout &lt;&lt; &quot;Hello World!&quot;;
+    return 0;
+}
+</code></pre>
+
+<p>Ulepszone C, posiada klasy, szablony(typy generyczne), mechanizmy dziedziczenia.
+Ogółem rzecz biorąc jest to C na sterydach. Wykorzystywany tam, gdzie liczy się,
+szybkość naszych aplikacji.</p>
+
 <h2 id="python">Python</h2>
 
 <pre><code class="language-python">print(&quot;Hello World&quot;)
 </code></pre>
 
+<p>Język dynamicznie typowany, interpretowany. Bardzo prosty do nauczenia, znajduje
+wykorzystanie w wielu dziedzinach informatyki, od prostych skyptów, poprzez strony
+internetowe (z wykorzystaniem frameworków Django lub Flask), aż do Sztucznej
+Inteligencji (Machine Learning, Deep Learning). Dzięki dynamicznemu typowaniu
+możemy nie przejmować się precyzowaniem typu danych, niestety ponieważ jest to
+język interpretowany nie zdołamy wykryć błedów przed uruchomieniem aplikacji, oraz
+wydajność naszych aplikacji nie będzie tak dobra jak w przypadku apliacji
+pisanych w C bądź C++ (chodź wszystko zależy od zastosowanego algorytmu).</p>
+
+<h2 id="ruby">Ruby</h2>
+
+<pre><code class="language-ruby">puts 'Hello, world!'
+</code></pre>
+
+<p>Podobnie jak Python jest to język dynamicznie typowany oraz interpretowany.
+Obecnie jego główne zastosowanie to WebDev dzięki frameworkowi Ruby on Rails,
+który pozwala na szybkie prototypowanie i pisanie aplikacji internetowych.
+Sam Ruby on Rails posiada mechanizm rusztowania naszych aplikacji (Scaffolding),
+dzięki czemu prostą stronę z wykorzystaniem baz danych, widoków oraz kontrolerów
+stworzymy w kilka minut.</p>
+
+<h2 id="php">PHP</h2>
+
+<pre><code class="language-php">&lt;?php echo '&lt;p&gt;Hello World&lt;/p&gt;'; ?&gt; 
+</code></pre>
+
+<p>Język przez wielu uważany za wymierający, przeznaczony wyłącznie do WebDev.
+Mimo wszystko wciąż jest bardzo popularny dzięki CMSowi zwanemu Wordpress, który
+został napisany właśnie w PHP. Sam Wordpress nie wymaga znajomości PHP, jednak
+pisanie dodatków może już wymagać od nas znajomości PHP.</p>
+
 <h2 id="haskell">Haskell</h2>
 
 <pre><code class="language-haskel">main = putStrLn &quot;Hello World&quot;
 </code></pre>
+
+<p>Język z paradygmatem programowania funkcyjnego. Idealny do nauki własnie takiego
+stylu programowania. Nie było mi dane z niego korzystać, więc wiele na jego temat
+nie napiszę.</p>
 
 <h2 id="malbolge">Malbolge</h2>
 
@@ -232,6 +300,14 @@ main()
     
       <div class="tag">
         <a href="https://blog.budzynskimaciej.pl/tags/python">#python</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://blog.budzynskimaciej.pl/tags/ruby">#ruby</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://blog.budzynskimaciej.pl/tags/php">#php</a>
       </div>
     
       <div class="tag">

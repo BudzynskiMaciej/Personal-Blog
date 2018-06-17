@@ -3,7 +3,7 @@ body {
   counter-reset: heading;
   margin: 0;
   padding: 1em 0.5em 0.5em 0.5em;
-  background-image: url("/img/bkg.png");
+  background-image: url("https://blog.budzynskimaciej.pl/img/bkg.png");
 }
 
 .main {

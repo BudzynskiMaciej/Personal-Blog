@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
     <copyright>Copyright (c) 2018, wszelkie prawa zastrzeżone.</copyright>
-    <lastBuildDate>Mon, 24 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.budzynskimaciej.pl/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>O mnie</title>
+      <link>https://blog.budzynskimaciej.pl/about/</link>
+      <pubDate>Sun, 17 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.budzynskimaciej.pl/about/</guid>
+      <description>O mnie Nazywam się Maciej Budzyński, jestem studentem informatyki pierwszego stopnia na trzecim roku. Ukończyłem technikum o kierunku informatycznym, posiadam dyplom technika informatyki (klasyfikacje E12, E13, E14).Swoją przygodę z programowaniem zaczełem w 4 klasie technikum informatycznego. Na początku miałem styczność z C++, który był też obecny na pierwszych latach moich studiów. Oprócz tego korzystałem również z Javy oraz frameworka Spring(Boot,MVC,Security). Otarłem sie również o GoLang (czego owocem jest ten blog oparty o Hugo, napędzanym właśnie przez Go).</description>
+    </item>
     
     <item>
       <title>Projekty</title>
@@ -20,19 +29,6 @@
       <guid>https://blog.budzynskimaciej.pl/projects/</guid>
       <description> Moje Projekty Większość moich publicznych projektów znajduje się na moim koncie na GitHub.
 Strona w Budowie </description>
-    </item>
-    
-    <item>
-      <title>O mnie</title>
-      <link>https://blog.budzynskimaciej.pl/about/</link>
-      <pubDate>Tue, 20 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.budzynskimaciej.pl/about/</guid>
-      <description>Ta strona będzie zawierać informacje o mnie Ale narazie jest w budowie i zawiera zlepek losowych informacji.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.
-Setup Some fun facts about Hugo:
- Built in Go Loosely inspired by Jekyll Primarily developed by spf13 on the train while commuting to and from Manhattan. Coded in Vim using spf13-vim  Have questions or suggestions?</description>
     </item>
     
     <item>
