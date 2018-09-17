@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>https://blog.budzynskimaciej.pl/post/string-in-python/</loc>
+    <lastmod>2018-09-17T20:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.budzynskimaciej.pl/post/blog/</loc>
     <lastmod>2018-04-28T16:40:20+02:00</lastmod>
   </url>
@@ -41,7 +46,7 @@
   </url>
   
   <url>
-    <loc>https://blog.budzynskimaciej.pl/tags/c#/</loc>
+    <loc>https://blog.budzynskimaciej.pl/tags/c/</loc>
     <lastmod>2018-04-28T15:04:50+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -107,25 +112,25 @@
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/post/</loc>
-    <lastmod>2018-04-28T16:40:20+02:00</lastmod>
+    <lastmod>2018-09-17T20:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/tags/programming/</loc>
-    <lastmod>2018-04-28T15:04:50+02:00</lastmod>
+    <lastmod>2018-09-17T20:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/categories/programming/</loc>
-    <lastmod>2018-04-28T15:04:50+02:00</lastmod>
+    <lastmod>2018-09-17T20:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.budzynskimaciej.pl/tags/python/</loc>
-    <lastmod>2018-04-28T15:04:50+02:00</lastmod>
+    <lastmod>2018-09-17T20:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   

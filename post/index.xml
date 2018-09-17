@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
     <copyright>Copyright (c) 2018, wszelkie prawa zastrzeżone.</copyright>
-    <lastBuildDate>Sat, 28 Apr 2018 16:40:20 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 17 Sep 2018 20:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://blog.budzynskimaciej.pl/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Upiększanie ciągów znaków, czyli jak formatować stringi w Pythonie</title>
+      <link>https://blog.budzynskimaciej.pl/post/string-in-python/</link>
+      <pubDate>Mon, 17 Sep 2018 20:00:00 +0200</pubDate>
+      
+      <guid>https://blog.budzynskimaciej.pl/post/string-in-python/</guid>
+      <description>&lt;p&gt;W pythonie istniały dwie metody formatowania stringów. Sytuacja ta trwała do czasu pojawienia się
+Python 3.6, wraz z nadejściem f-stringów. Dziś postaram się omówić wszystkie metody formatowania,
+oraz podam przykład ich stosowania.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Blog oparty o generator stron statycznych Hugo</title>
