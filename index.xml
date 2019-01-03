@@ -6,7 +6,7 @@
     <description>Recent content on Budzyński Maciej - blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
-    <copyright>Copyright (c) 2018, wszelkie prawa zastrzeżone.</copyright>
+    <copyright>Copyright (c) 2019, wszelkie prawa zastrzeżone.</copyright>
     <lastBuildDate>Sun, 17 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.budzynskimaciej.pl/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <pubDate>Sun, 17 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/about/</guid>
-      <description>O mnie Nazywam się Maciej Budzyński, jestem studentem informatyki pierwszego stopnia na trzecim roku. Ukończyłem technikum o kierunku informatycznym, posiadam dyplom technika informatyki (klasyfikacje E12, E13, E14).Swoją przygodę z programowaniem zaczełem w 4 klasie technikum informatycznego. Na początku miałem styczność z C++, który był też obecny na pierwszych latach moich studiów. Oprócz tego korzystałem również z Javy oraz frameworka Spring(Boot,MVC,Security). Otarłem sie również o GoLang (czego owocem jest ten blog oparty o Hugo, napędzanym właśnie przez Go).</description>
+      <description>O mnie Nazywam się Maciej Budzyński, jestem studentem informatyki pierwszego stopnia na trzecim roku. Ukończyłem technikum na kierunku informatycznym, posiadam dyplom technika informatyki (klasyfikacje E12, E13, E14). Swoją przygodę z programowaniem zaczełem w 4 klasie technikum informatycznego. Na początku miałem styczność z C++, który był też obecny na pierwszych latach moich studiów. Oprócz tego korzystałem również z Javy oraz frameworka Spring(Boot,MVC,Security). Otarłem sie również o GoLang (czego owocem jest ten blog oparty o Hugo, napędzanym właśnie przez Go).</description>
     </item>
     
     <item>
@@ -39,9 +39,7 @@ Strona w Budowie </description>
       <guid>https://blog.budzynskimaciej.pl/post/string-in-python/</guid>
       <description>&lt;p&gt;W pythonie istniały dwie metody formatowania stringów. Sytuacja ta trwała do czasu pojawienia się
 Python 3.6, wraz z nadejściem f-stringów. Dziś postaram się omówić wszystkie metody formatowania,
-oraz podam przykład ich stosowania.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+oraz podam przykład ich stosowania.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -51,9 +49,7 @@ oraz podam przykład ich stosowania.&lt;/p&gt;
       
       <guid>https://blog.budzynskimaciej.pl/post/blog/</guid>
       <description>&lt;p&gt;W aktualnych czasach każdy posiada swoją stronę w internecie. Ja postanowiłem założyć bloga
-opartego o technologię Hugo.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+opartego o technologię Hugo.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -64,9 +60,7 @@ opartego o technologię Hugo.&lt;/p&gt;
       <guid>https://blog.budzynskimaciej.pl/post/helloworld/</guid>
       <description>&lt;p&gt;Zastanawiasz sie nad wyborem języka programowania? Nie masz pojęcia który z nich wybrać?
 W takim razie ten post jest dla Ciebie. Przygotowałem w nim krótkie opisy różnych języków
-programowania oraz podstawowy kod programu Hello World.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+programowania oraz podstawowy kod programu Hello World.&lt;/p&gt;</description>
     </item>
     
   </channel>

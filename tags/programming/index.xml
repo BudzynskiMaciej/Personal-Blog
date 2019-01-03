@@ -6,7 +6,7 @@
     <description>Recent content in Programming on Budzyński Maciej - blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
-    <copyright>Copyright (c) 2018, wszelkie prawa zastrzeżone.</copyright>
+    <copyright>Copyright (c) 2019, wszelkie prawa zastrzeżone.</copyright>
     <lastBuildDate>Mon, 17 Sep 2018 20:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://blog.budzynskimaciej.pl/tags/programming/index.xml" rel="self" type="application/rss+xml" />
@@ -20,9 +20,7 @@
       <guid>https://blog.budzynskimaciej.pl/post/string-in-python/</guid>
       <description>&lt;p&gt;W pythonie istniały dwie metody formatowania stringów. Sytuacja ta trwała do czasu pojawienia się
 Python 3.6, wraz z nadejściem f-stringów. Dziś postaram się omówić wszystkie metody formatowania,
-oraz podam przykład ich stosowania.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+oraz podam przykład ich stosowania.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -33,9 +31,7 @@ oraz podam przykład ich stosowania.&lt;/p&gt;
       <guid>https://blog.budzynskimaciej.pl/post/helloworld/</guid>
       <description>&lt;p&gt;Zastanawiasz sie nad wyborem języka programowania? Nie masz pojęcia który z nich wybrać?
 W takim razie ten post jest dla Ciebie. Przygotowałem w nim krótkie opisy różnych języków
-programowania oraz podstawowy kod programu Hello World.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+programowania oraz podstawowy kod programu Hello World.&lt;/p&gt;</description>
     </item>
     
   </channel>
