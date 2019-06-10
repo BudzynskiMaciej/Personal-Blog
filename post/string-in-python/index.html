@@ -7,7 +7,7 @@
 <meta name="description" content="Blog programisty" />
 <meta name="keywords" content="blog, tech, IT, programming, budzynski, maciej, budzynskimaciej, python, golang, hugo" />
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-<meta name="generator" content="Hugo 0.52" />
+<meta name="generator" content="Hugo 0.55.6" />
 
 <link rel="canonical" href="https://blog.budzynskimaciej.pl/post/string-in-python/">
 <base href="https://blog.budzynskimaciej.pl" />
@@ -16,7 +16,8 @@
 Python 3.6, wraz z nadejściem f-stringów. Dziś postaram się omówić wszystkie metody formatowania,
 oraz podam przykład ich stosowania." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.budzynskimaciej.pl/post/string-in-python/" /><meta property="article:published_time" content="2018-09-17T20:00:00&#43;02:00"/>
+<meta property="og:url" content="https://blog.budzynskimaciej.pl/post/string-in-python/" />
+<meta property="article:published_time" content="2018-09-17T20:00:00&#43;02:00"/>
 <meta property="article:modified_time" content="2018-09-17T20:00:00&#43;02:00"/>
 
 <meta name="twitter:card" content="summary"/>
@@ -35,7 +36,7 @@ oraz podam przykład ich stosowania.">
 
 <meta itemprop="datePublished" content="2018-09-17T20:00:00&#43;02:00" />
 <meta itemprop="dateModified" content="2018-09-17T20:00:00&#43;02:00" />
-<meta itemprop="wordCount" content="350">
+<meta itemprop="wordCount" content="345">
 
 
 
@@ -133,12 +134,15 @@ krotek oraz list. Poniżej przedstawiam przykład użycia tego formatowania:</p>
 <pre><code class="language-python">print(&quot;Hello %s %s. Your born year is %d. You are %d years old&quot;, first_name, last_name, born_year, current_age)
 </code></pre>
 
-<p>Co oznacza %s? To porostu informuje interpreter o tym, że chcemy odczytać string. Dostępne modyfikatory:
-- <strong>%s</strong> - Ciąg znaków (bądź każdy obiekt który posiada metodę <strong>repr</strong> np. tablica))
-- <strong>%d</strong> - Liczby całkowite
-- <strong>%f</strong> - Liczby zmiennoprzecinkowe
-- <strong>%.(X)</strong> - Liczba zmiennoprzecinkowa z dokładnością do X liczb po przecinku
-- <strong>%X</strong> - Liczba całkowita reprezentowana w zapisie hexadecymalnym (szesnastkowym)</p>
+<p>Co oznacza %s? To porostu informuje interpreter o tym, że chcemy odczytać string. Dostępne modyfikatory:</p>
+
+<ul>
+<li><strong>%s</strong> - Ciąg znaków (bądź każdy obiekt który posiada metodę <strong>repr</strong> np. tablica))</li>
+<li><strong>%d</strong> - Liczby całkowite</li>
+<li><strong>%f</strong> - Liczby zmiennoprzecinkowe</li>
+<li><strong>%.(X)</strong> - Liczba zmiennoprzecinkowa z dokładnością do X liczb po przecinku</li>
+<li><strong>%X</strong> - Liczba całkowita reprezentowana w zapisie hexadecymalnym (szesnastkowym)</li>
+</ul>
 
 <h1 id="formatowanie-poprzez-str-format">Formatowanie poprzez str.format()</h1>
 
