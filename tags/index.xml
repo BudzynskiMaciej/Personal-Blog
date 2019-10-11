@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
     <copyright>Copyright (c) 2019, wszelkie prawa zastrzeżone.</copyright>
-    <lastBuildDate>Mon, 10 Jun 2019 10:40:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 18:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://blog.budzynskimaciej.pl/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>blockchain</title>
+      <link>https://blog.budzynskimaciej.pl/tags/blockchain/</link>
+      <pubDate>Mon, 30 Sep 2019 18:00:00 +0200</pubDate>
+      
+      <guid>https://blog.budzynskimaciej.pl/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://blog.budzynskimaciej.pl/tags/programming/</link>
+      <pubDate>Mon, 30 Sep 2019 18:00:00 +0200</pubDate>
+      
+      <guid>https://blog.budzynskimaciej.pl/tags/programming/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>foresty</title>
@@ -27,15 +45,6 @@
       <pubDate>Mon, 10 Jun 2019 10:40:00 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>programming</title>
-      <link>https://blog.budzynskimaciej.pl/tags/programming/</link>
-      <pubDate>Mon, 17 Sep 2018 20:00:00 +0200</pubDate>
-      
-      <guid>https://blog.budzynskimaciej.pl/tags/programming/</guid>
       <description></description>
     </item>
     

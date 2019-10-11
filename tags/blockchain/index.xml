@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blockchain on Budzyński Maciej - blog</title>
+    <link>https://blog.budzynskimaciej.pl/tags/blockchain/</link>
+    <description>Recent content in blockchain on Budzyński Maciej - blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-PL</language>
+    <copyright>Copyright (c) 2019, wszelkie prawa zastrzeżone.</copyright>
+    <lastBuildDate>Mon, 30 Sep 2019 18:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://blog.budzynskimaciej.pl/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Czym jest Blockchain?</title>
+      <link>https://blog.budzynskimaciej.pl/post/blockchain-p1/</link>
+      <pubDate>Mon, 30 Sep 2019 18:00:00 +0200</pubDate>
+      
+      <guid>https://blog.budzynskimaciej.pl/post/blockchain-p1/</guid>
+      <description>&lt;p&gt;Blockchain (po polsku łańcuch bloków) jest ostatnio popularnym słowem w odmętach internetu.
+W tym artykule postaram się zdemaskować czym jest sławny Blockchain oraz do czego może
+być przydatny.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

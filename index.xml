@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
     <copyright>Copyright (c) 2019, wszelkie prawa zastrzeżone.</copyright>
-    <lastBuildDate>Mon, 10 Jun 2019 10:40:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 18:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://blog.budzynskimaciej.pl/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,7 +18,7 @@
       <pubDate>Sun, 17 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/about/</guid>
-      <description>O mnie Nazywam się Maciej Budzyński, jestem studentem informatyki pierwszego stopnia na trzecim roku. Ukończyłem technikum na kierunku informatycznym, posiadam dyplom technika informatyki (klasyfikacje E12, E13, E14). Swoją przygodę z programowaniem zaczełem w 4 klasie technikum informatycznego. Na początku miałem styczność z C++, który był też obecny na pierwszych latach moich studiów. Oprócz tego korzystałem również z Javy oraz frameworka Spring(Boot,MVC,Security). Otarłem sie również o GoLang (czego owocem jest ten blog oparty o Hugo, napędzanym właśnie przez Go).</description>
+      <description>O mnie Nazywam się Maciej Budzyński, jestem studentem informatyki drugiego stopnia na pierwszym roku. Ukończyłem studia pierwszego stopnia z tytułem licencjata oraz technikum na kierunku informatycznym, posiadam dyplom technika informatyki (klasyfikacje E12, E13, E14). Obecnie pracuję dla Centralnego Ośrodka Informatyki jako Młodszy programista Java, rozwijając system CEPiK odpowiedzialny za międzyinnymi przechowywanie danych aut oraz rejestrację samochodów w polskich urzędach. Swoją przygodę z programowaniem zaczełem w 4 klasie technikum informatycznego. Na początku miałem styczność z C++, który był też obecny na pierwszych latach moich studiów.</description>
     </item>
     
     <item>
@@ -29,6 +29,17 @@
       <guid>https://blog.budzynskimaciej.pl/projects/</guid>
       <description> Moje Projekty Większość moich publicznych projektów znajduje się na moim koncie na GitHub.
 Strona w Budowie </description>
+    </item>
+    
+    <item>
+      <title>Czym jest Blockchain?</title>
+      <link>https://blog.budzynskimaciej.pl/post/blockchain-p1/</link>
+      <pubDate>Mon, 30 Sep 2019 18:00:00 +0200</pubDate>
+      
+      <guid>https://blog.budzynskimaciej.pl/post/blockchain-p1/</guid>
+      <description>&lt;p&gt;Blockchain (po polsku łańcuch bloków) jest ostatnio popularnym słowem w odmętach internetu.
+W tym artykule postaram się zdemaskować czym jest sławny Blockchain oraz do czego może
+być przydatny.&lt;/p&gt;</description>
     </item>
     
     <item>
