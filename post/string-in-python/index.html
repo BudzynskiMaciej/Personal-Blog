@@ -35,7 +35,7 @@ oraz podam przykład ich stosowania.">
 
 <meta itemprop="datePublished" content="2018-09-17T20:00:00&#43;02:00" />
 <meta itemprop="dateModified" content="2018-09-17T20:00:00&#43;02:00" />
-<meta itemprop="wordCount" content="345">
+<meta itemprop="wordCount" content="337">
 
 
 
@@ -43,6 +43,7 @@ oraz podam przykład ich stosowania.">
 
 
 <link rel="stylesheet" href="https://blog.budzynskimaciej.pl/css/layout.css" />
+<link rel="stylesheet" href="https://blog.budzynskimaciej.pl/css/syntax.css" />
 
 
 <script type="application/javascript">
@@ -81,9 +82,6 @@ if (!doNotTrack) {
 
 </title>
 
-<script src="js/highlight.min.js"></script>
-<link rel="stylesheet" href="css/tomorrow-night.min.css" />
-<script>hljs.initHighlightingOnLoad();</script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({
@@ -91,6 +89,7 @@ if (!doNotTrack) {
     enable_page_level_ads: true
   });
 </script>
+
 </head>
 
 
@@ -134,12 +133,11 @@ oraz podam przykład ich stosowania.</p>
 <p>Wykorzystamy pare prostych zmiennych, które postaram się wyświetlić za pomocą każdej z dostępnych
 metod formatujących.</p>
 
-<pre><code class="language-python">first_name = &quot;John&quot;
-last_name = &quot;Doe&quot;
-born_year = 1978
-current_age = 40
-dict = {'text':'One', 'value': 1}
-</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">first_name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;John&#34;</span>
+last_name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Doe&#34;</span>
+born_year <span style="color:#f92672">=</span> <span style="color:#ae81ff">1978</span>
+current_age <span style="color:#f92672">=</span> <span style="color:#ae81ff">40</span>
+dict <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;text&#39;</span>:<span style="color:#e6db74">&#39;One&#39;</span>, <span style="color:#e6db74">&#39;value&#39;</span>: <span style="color:#ae81ff">1</span>}</code></pre></div>
 
 <h1 id="stare-formatowanie-poprzez-znak">Stare formatowanie poprzez znak &lsquo;%&rsquo;</h1>
 
@@ -147,8 +145,7 @@ dict = {'text':'One', 'value': 1}
 dokumentację Pythona, gdyż posiada pewne niedociągłości i może powodować problemy z wyświetlaniem
 krotek oraz list. Poniżej przedstawiam przykład użycia tego formatowania:</p>
 
-<pre><code class="language-python">print(&quot;Hello %s %s. Your born year is %d. You are %d years old&quot;, first_name, last_name, born_year, current_age)
-</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">print(<span style="color:#e6db74">&#34;Hello </span><span style="color:#e6db74">%s</span><span style="color:#e6db74"> </span><span style="color:#e6db74">%s</span><span style="color:#e6db74">. Your born year is </span><span style="color:#e6db74">%d</span><span style="color:#e6db74">. You are </span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> years old&#34;</span>, first_name, last_name, born_year, current_age)</code></pre></div>
 
 <p>Co oznacza %s? To porostu informuje interpreter o tym, że chcemy odczytać string. Dostępne modyfikatory:</p>
 
@@ -165,37 +162,31 @@ krotek oraz list. Poniżej przedstawiam przykład użycia tego formatowania:</p>
 <p>Ta opcja została wprowadzona w Python 2.6. Jest to ulepszone formatowanie względem %-formatowania.
 Dzięki <em>str.format()</em> pola które zamierzamy podstawić reprezentujemy za pomocą znaków <code>{}</code>. Przykład:</p>
 
-<pre><code class="language-python">print(&quot;Hello {2} {3}. Your born year is {1}. You are {0} years old.&quot;.format(current_age, born_year, first_name, last_name))
-</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">print(<span style="color:#e6db74">&#34;Hello </span><span style="color:#e6db74">{2}</span><span style="color:#e6db74"> </span><span style="color:#e6db74">{3}</span><span style="color:#e6db74">. Your born year is </span><span style="color:#e6db74">{1}</span><span style="color:#e6db74">. You are </span><span style="color:#e6db74">{0}</span><span style="color:#e6db74"> years old.&#34;</span><span style="color:#f92672">.</span>format(current_age, born_year, first_name, last_name))</code></pre></div>
 
 <p>Możemy też wyświetlać zawartość słowników poprzez ich rozpakowywanie:</p>
 
-<pre><code class="language-python">print(&quot;{text} is {value}.&quot;.format(**dict))
-</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">print(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{text}</span><span style="color:#e6db74"> is </span><span style="color:#e6db74">{value}</span><span style="color:#e6db74">.&#34;</span><span style="color:#f92672">.</span>format(<span style="color:#f92672">**</span>dict))</code></pre></div>
 
 <h1 id="nowa-droga-czyli-f-stringi-w-pythonie-3-6">Nowa droga, czyli f-Stringi w Pythonie 3.6</h1>
 
 <p>Wprowadzenie f-Stringów uczyniło formatowanie jeszcze prostrzym. Przykład:</p>
 
-<pre><code class="language-python">print(f&quot;Hello {first_name} {last_name}. Your born year is {born_year}. You are {current_year} years old&quot;)
-</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">print(f<span style="color:#e6db74">&#34;Hello </span><span style="color:#e6db74">{first_name}</span><span style="color:#e6db74"> </span><span style="color:#e6db74">{last_name}</span><span style="color:#e6db74">. Your born year is </span><span style="color:#e6db74">{born_year}</span><span style="color:#e6db74">. You are </span><span style="color:#e6db74">{current_year}</span><span style="color:#e6db74"> years old&#34;</span>)</code></pre></div>
 
 <p>To wszystko, f-Stringi są wykonywane w czasie uruchomienia. Poprostu w <code>{}</code> podajesz zmienną zdefiniowaną
 wcześniej. Możesz też używać wyrażeń, np.:</p>
 
-<pre><code class="language-python">print(f&quot;{2 * 6}&quot;)
-</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">print(f<span style="color:#e6db74">&#34;{2 * 6}&#34;</span>)</code></pre></div>
 
 <p>Ten kod wyświetli wartość wyrażenia <code>2 * 6</code>, czyli <code>12</code>. Możesz też wywoływać funkcje:</p>
 
-<pre><code class="language-python">name = &quot;jane&quot;
-print(f&quot;{name.capitalize()}&quot;)
-</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;jane&#34;</span>
+print(f<span style="color:#e6db74">&#34;{name.capitalize()}&#34;</span>)</code></pre></div>
 
 <p>Powyższy kod wyświetli napis: <code>Jane</code>. Możemy też wyświetlać zawartość słowników:</p>
 
-<pre><code class="language-python">print(f&quot;{dict['text']} is {dict['value']}.&quot;)
-</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">print(f<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{dict[&#39;text&#39;]}</span><span style="color:#e6db74"> is </span><span style="color:#e6db74">{dict[&#39;value&#39;]}</span><span style="color:#e6db74">.&#34;</span>)</code></pre></div>
 
 <p>Jak widać warto korzystać z f-Stringów, gdyż zwiększają naszą produktywność oraz nie zaciemniają kodu.
 Również są też nieco szybsze w wykonaniu niż %-Stringi oraz str.format().</p> </div>
