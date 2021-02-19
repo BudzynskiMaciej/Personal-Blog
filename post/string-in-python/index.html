@@ -4,10 +4,10 @@
 <head>
 <meta charset="utf-8" />
 <meta name="author" content="Maciej Budzynski" />
-<meta name="description" content="Blog programisty" />
+<meta name="description" content="Blog programisty Maciej Budzyński" />
 <meta name="keywords" content="blog, tech, IT, programming, budzynski, maciej, budzynskimaciej, python, golang, hugo" />
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-<meta name="generator" content="Hugo 0.59.0" />
+<meta name="generator" content="Hugo 0.80.0" />
 
 <link rel="canonical" href="https://blog.budzynskimaciej.pl/post/string-in-python/">
 <base href="https://blog.budzynskimaciej.pl" />
@@ -31,10 +31,8 @@ oraz podam przykład ich stosowania."/>
 <meta itemprop="description" content="W pythonie istniały dwie metody formatowania stringów. Sytuacja ta trwała do czasu pojawienia się
 Python 3.6, wraz z nadejściem f-stringów. Dziś postaram się omówić wszystkie metody formatowania,
 oraz podam przykład ich stosowania.">
-
-
-<meta itemprop="datePublished" content="2018-09-17T20:00:00&#43;02:00" />
-<meta itemprop="dateModified" content="2018-09-17T20:00:00&#43;02:00" />
+<meta itemprop="datePublished" content="2018-09-17T20:00:00+02:00" />
+<meta itemprop="dateModified" content="2018-09-17T20:00:00+02:00" />
 <meta itemprop="wordCount" content="337">
 
 
@@ -127,28 +125,20 @@ if (!doNotTrack) {
     <div class="content"> <p>W pythonie istniały dwie metody formatowania stringów. Sytuacja ta trwała do czasu pojawienia się
 Python 3.6, wraz z nadejściem f-stringów. Dziś postaram się omówić wszystkie metody formatowania,
 oraz podam przykład ich stosowania.</p>
-
 <h1 id="kod-z-którym-będziemy-pracować">Kod z którym będziemy pracować</h1>
-
 <p>Wykorzystamy pare prostych zmiennych, które postaram się wyświetlić za pomocą każdej z dostępnych
 metod formatujących.</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">first_name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;John&#34;</span>
 last_name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Doe&#34;</span>
 born_year <span style="color:#f92672">=</span> <span style="color:#ae81ff">1978</span>
 current_age <span style="color:#f92672">=</span> <span style="color:#ae81ff">40</span>
 dict <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;text&#39;</span>:<span style="color:#e6db74">&#39;One&#39;</span>, <span style="color:#e6db74">&#39;value&#39;</span>: <span style="color:#ae81ff">1</span>}</code></pre></div>
-
-<h1 id="stare-formatowanie-poprzez-znak">Stare formatowanie poprzez znak &lsquo;%&rsquo;</h1>
-
+<h1 id="stare-formatowanie-poprzez-znak-">Stare formatowanie poprzez znak &lsquo;%&rsquo;</h1>
 <p>Formatowanie to znajduje się w Pythonie od dawien dawna. Obecnie metoda ta nie jest zalecana przez
 dokumentację Pythona, gdyż posiada pewne niedociągłości i może powodować problemy z wyświetlaniem
 krotek oraz list. Poniżej przedstawiam przykład użycia tego formatowania:</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">print(<span style="color:#e6db74">&#34;Hello </span><span style="color:#e6db74">%s</span><span style="color:#e6db74"> </span><span style="color:#e6db74">%s</span><span style="color:#e6db74">. Your born year is </span><span style="color:#e6db74">%d</span><span style="color:#e6db74">. You are </span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> years old&#34;</span>, first_name, last_name, born_year, current_age)</code></pre></div>
-
 <p>Co oznacza %s? To porostu informuje interpreter o tym, że chcemy odczytać string. Dostępne modyfikatory:</p>
-
 <ul>
 <li><strong>%s</strong> - Ciąg znaków (bądź każdy obiekt który posiada metodę <strong>repr</strong> np. tablica))</li>
 <li><strong>%d</strong> - Liczby całkowite</li>
@@ -156,38 +146,23 @@ krotek oraz list. Poniżej przedstawiam przykład użycia tego formatowania:</p>
 <li><strong>%.(X)</strong> - Liczba zmiennoprzecinkowa z dokładnością do X liczb po przecinku</li>
 <li><strong>%X</strong> - Liczba całkowita reprezentowana w zapisie hexadecymalnym (szesnastkowym)</li>
 </ul>
-
-<h1 id="formatowanie-poprzez-str-format">Formatowanie poprzez str.format()</h1>
-
+<h1 id="formatowanie-poprzez-strformat">Formatowanie poprzez str.format()</h1>
 <p>Ta opcja została wprowadzona w Python 2.6. Jest to ulepszone formatowanie względem %-formatowania.
 Dzięki <em>str.format()</em> pola które zamierzamy podstawić reprezentujemy za pomocą znaków <code>{}</code>. Przykład:</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">print(<span style="color:#e6db74">&#34;Hello </span><span style="color:#e6db74">{2}</span><span style="color:#e6db74"> </span><span style="color:#e6db74">{3}</span><span style="color:#e6db74">. Your born year is </span><span style="color:#e6db74">{1}</span><span style="color:#e6db74">. You are </span><span style="color:#e6db74">{0}</span><span style="color:#e6db74"> years old.&#34;</span><span style="color:#f92672">.</span>format(current_age, born_year, first_name, last_name))</code></pre></div>
-
 <p>Możemy też wyświetlać zawartość słowników poprzez ich rozpakowywanie:</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">print(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{text}</span><span style="color:#e6db74"> is </span><span style="color:#e6db74">{value}</span><span style="color:#e6db74">.&#34;</span><span style="color:#f92672">.</span>format(<span style="color:#f92672">**</span>dict))</code></pre></div>
-
-<h1 id="nowa-droga-czyli-f-stringi-w-pythonie-3-6">Nowa droga, czyli f-Stringi w Pythonie 3.6</h1>
-
+<h1 id="nowa-droga-czyli-f-stringi-w-pythonie-36">Nowa droga, czyli f-Stringi w Pythonie 3.6</h1>
 <p>Wprowadzenie f-Stringów uczyniło formatowanie jeszcze prostrzym. Przykład:</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">print(f<span style="color:#e6db74">&#34;Hello </span><span style="color:#e6db74">{first_name}</span><span style="color:#e6db74"> </span><span style="color:#e6db74">{last_name}</span><span style="color:#e6db74">. Your born year is </span><span style="color:#e6db74">{born_year}</span><span style="color:#e6db74">. You are </span><span style="color:#e6db74">{current_year}</span><span style="color:#e6db74"> years old&#34;</span>)</code></pre></div>
-
 <p>To wszystko, f-Stringi są wykonywane w czasie uruchomienia. Poprostu w <code>{}</code> podajesz zmienną zdefiniowaną
 wcześniej. Możesz też używać wyrażeń, np.:</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">print(f<span style="color:#e6db74">&#34;{2 * 6}&#34;</span>)</code></pre></div>
-
 <p>Ten kod wyświetli wartość wyrażenia <code>2 * 6</code>, czyli <code>12</code>. Możesz też wywoływać funkcje:</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;jane&#34;</span>
 print(f<span style="color:#e6db74">&#34;{name.capitalize()}&#34;</span>)</code></pre></div>
-
 <p>Powyższy kod wyświetli napis: <code>Jane</code>. Możemy też wyświetlać zawartość słowników:</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3">print(f<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{dict[&#39;text&#39;]}</span><span style="color:#e6db74"> is </span><span style="color:#e6db74">{dict[&#39;value&#39;]}</span><span style="color:#e6db74">.&#34;</span>)</code></pre></div>
-
 <p>Jak widać warto korzystać z f-Stringów, gdyż zwiększają naszą produktywność oraz nie zaciemniają kodu.
 Również są też nieco szybsze w wykonaniu niż %-Stringi oraz str.format().</p> </div>
     <footer class="post-footer">
@@ -267,7 +242,7 @@ Również są też nieco szybsze w wykonaniu niż %-Stringi oraz str.format().</
 </div>
 
 
-  <div class="copyright"> Copyright (c) 2019, wszelkie prawa zastrzeżone. </div>
+  <div class="copyright"> Copyright (c) 2021, wszelkie prawa zastrzeżone. </div>
 
   <div class="poweredby">
     Blog napędzany przez <a href="https://gohugo.io/">Hugo</a>.

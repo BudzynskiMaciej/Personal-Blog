@@ -6,28 +6,24 @@
     <description>Recent content on Budzyński Maciej - blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
-    <copyright>Copyright (c) 2019, wszelkie prawa zastrzeżone.</copyright>
-    <lastBuildDate>Mon, 30 Sep 2019 18:00:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://blog.budzynskimaciej.pl/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Copyright (c) 2021, wszelkie prawa zastrzeżone.</copyright>
+    <lastBuildDate>Mon, 30 Sep 2019 18:00:00 +0200</lastBuildDate><atom:link href="https://blog.budzynskimaciej.pl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>O mnie</title>
       <link>https://blog.budzynskimaciej.pl/about/</link>
-      <pubDate>Sun, 17 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/about/</guid>
-      <description>O mnie Nazywam się Maciej Budzyński, jestem studentem informatyki drugiego stopnia na pierwszym roku. Ukończyłem studia pierwszego stopnia z tytułem licencjata oraz technikum na kierunku informatycznym, posiadam dyplom technika informatyki (klasyfikacje E12, E13, E14). Obecnie pracuję dla Centralnego Ośrodka Informatyki jako Młodszy programista Java, rozwijając system CEPiK odpowiedzialny za międzyinnymi przechowywanie danych aut oraz rejestrację samochodów w polskich urzędach. Swoją przygodę z programowaniem zaczełem w 4 klasie technikum informatycznego. Na początku miałem styczność z C++, który był też obecny na pierwszych latach moich studiów.</description>
+      <description>O mnie Nazywam się Maciej Budzyński, jestem studentem informatyki drugiego stopnia na drugim roku. Ukończyłem studia pierwszego stopnia z tytułem licencjata oraz technikum na kierunku informatycznym, posiadam dyplom technika informatyki (klasyfikacje E12, E13, E14). Pracowałem dla Centralnego Ośrodka Informatyki jako Młodszy programista Java, rozwijając system Centralnej Ewidencji Pojazdów i Kierowców, Rejestr Dokumentów Paszportowych oraz Systemy Rejestrów Państwowych. W projektach tych wykorzystywałem takie technologie jak: Java7, Java8, Java11, SOAP, GraphQL, Apache Kafka, Docker, testy jednostkowe z użyciem Spocka (Groovy), testy integracyjne w Springu, Maven, Gradle, Jenkins, SonarQube, JIRA, system kontroli wersji GIT (z wykorzystaniem metodologii GitFlow).</description>
     </item>
     
     <item>
       <title>Projekty</title>
       <link>https://blog.budzynskimaciej.pl/projects/</link>
-      <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/projects/</guid>
-      <description> Moje Projekty Większość moich publicznych projektów znajduje się na moim koncie na GitHub.
+      <description>Moje Projekty Większość moich publicznych projektów znajduje się na moim koncie na GitHub.
 Strona w Budowie </description>
     </item>
     
@@ -68,7 +64,7 @@ oraz podam przykład ich stosowania.&lt;/p&gt;</description>
       <pubDate>Sat, 28 Apr 2018 16:40:20 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/post/blog/</guid>
-      <description>&lt;p&gt;W aktualnych czasach każdy posiada swoją stronę w internecie. Ja postanowiłem założyć bloga
+      <description>&lt;p&gt;W aktualnych czasach każdy posiada swoją stronę w internecie. Ja postanowiłem założyć bloga 
 opartego o technologię Hugo.&lt;/p&gt;</description>
     </item>
     
