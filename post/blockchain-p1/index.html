@@ -7,38 +7,34 @@
 <meta name="description" content="Blog programisty Maciej Budzyński" />
 <meta name="keywords" content="blog, tech, IT, programming, budzynski, maciej, budzynskimaciej, python, golang, hugo" />
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.82.0" />
 
 <link rel="canonical" href="https://blog.budzynskimaciej.pl/post/blockchain-p1/">
 <base href="https://blog.budzynskimaciej.pl" />
 <meta property="og:title" content="Czym jest Blockchain?" />
-<meta property="og:description" content="Blockchain (po polsku łańcuch bloków) jest ostatnio popularnym słowem w odmętach internetu.
+<meta property="og:description" content="Blockchain (po polsku łańcuch bloków) jest ostatnio popularnym słowem w odmętach internetu. 
 W tym artykule postaram się zdemaskować czym jest sławny Blockchain oraz do czego może
 być przydatny." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.budzynskimaciej.pl/post/blockchain-p1/" />
-<meta property="article:published_time" content="2019-09-30T18:00:00+02:00" />
-<meta property="article:modified_time" content="2019-09-30T18:00:00+02:00" />
+<meta property="og:url" content="https://blog.budzynskimaciej.pl/post/blockchain-p1/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2019-09-30T18:00:00&#43;02:00" />
+<meta property="article:modified_time" content="2019-09-30T18:00:00&#43;02:00" />
+
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Czym jest Blockchain?"/>
-<meta name="twitter:description" content="Blockchain (po polsku łańcuch bloków) jest ostatnio popularnym słowem w odmętach internetu.
+<meta name="twitter:description" content="Blockchain (po polsku łańcuch bloków) jest ostatnio popularnym słowem w odmętach internetu. 
 W tym artykule postaram się zdemaskować czym jest sławny Blockchain oraz do czego może
 być przydatny."/>
 
 
 <meta itemprop="name" content="Czym jest Blockchain?">
-<meta itemprop="description" content="Blockchain (po polsku łańcuch bloków) jest ostatnio popularnym słowem w odmętach internetu.
+<meta itemprop="description" content="Blockchain (po polsku łańcuch bloków) jest ostatnio popularnym słowem w odmętach internetu. 
 W tym artykule postaram się zdemaskować czym jest sławny Blockchain oraz do czego może
-być przydatny.">
-<meta itemprop="datePublished" content="2019-09-30T18:00:00+02:00" />
-<meta itemprop="dateModified" content="2019-09-30T18:00:00+02:00" />
+być przydatny."><meta itemprop="datePublished" content="2019-09-30T18:00:00&#43;02:00" />
+<meta itemprop="dateModified" content="2019-09-30T18:00:00&#43;02:00" />
 <meta itemprop="wordCount" content="279">
-
-
-
 <meta itemprop="keywords" content="programming,blockchain," />
-
 
 <link rel="stylesheet" href="https://blog.budzynskimaciej.pl/css/layout.css" />
 <link rel="stylesheet" href="https://blog.budzynskimaciej.pl/css/syntax.css" />
@@ -122,17 +118,17 @@ if (!doNotTrack) {
 
 <article class="post">
     <h1 class="title"> Czym jest Blockchain? </h1>
-    <div class="content"> <p>Blockchain (po polsku łańcuch bloków) jest ostatnio popularnym słowem w odmętach internetu.
+    <div class="content"> <p>Blockchain (po polsku łańcuch bloków) jest ostatnio popularnym słowem w odmętach internetu. 
 W tym artykule postaram się zdemaskować czym jest sławny Blockchain oraz do czego może
 być przydatny.</p>
 <h1 id="struktury-danych">Struktury danych</h1>
-<p>Na początku należy wytłumaczyć, czym są struktury danych, aby móc zrozumieć czym jest
-blockchain. Struktury danych (ang. data structures) w ogólnym skrócie są sposobem organizacji,
-zarządzania oraz przechowywania danych w pamięci komputera. Dokładniej, struktura danych to
-zbiór wartości danych, relacje między nimi oraz funkcje, bądź operacje, które można zastosować
-dla danych. Różne struktury danych służą do różnych celów jak na przykład relacyjne bazy danych,
-które wykorzystują indeksy drzewa-B do pobierania danych oraz pewne implementacje
-kompilatorów używają tabel mieszających (ang. Hash Table) do wyszukiwania identyfikatorów.
+<p>Na początku należy wytłumaczyć, czym są struktury danych, aby móc zrozumieć czym jest 
+blockchain. Struktury danych (ang. data structures) w ogólnym skrócie są sposobem organizacji, 
+zarządzania oraz przechowywania danych w pamięci komputera. Dokładniej, struktura danych to 
+zbiór wartości danych, relacje między nimi oraz funkcje, bądź operacje, które można zastosować 
+dla danych. Różne struktury danych służą do różnych celów jak na przykład relacyjne bazy danych, 
+które wykorzystują indeksy drzewa-B do pobierania danych oraz pewne implementacje 
+kompilatorów używają tabel mieszających (ang. Hash Table) do wyszukiwania identyfikatorów. 
 Do struktur danych zaliczamy:</p>
 <ul>
 <li>Rekord, zwaną też strukturą, bądź krotką (np. punkt o współrzędnych X, Y)</li>
@@ -145,12 +141,12 @@ Do struktur danych zaliczamy:</p>
 </ul>
 <p>oraz wiele, wiele więcej różnych wariancji powyższych struktur danych.</p>
 <h1 id="blockchain">Blockchain</h1>
-<p>Blockchain to struktura danych. Konkretnie jest to rodzaj jednokierunkowej listy zawierających
-silnie powiązane ze sobą bloki za pomocą kryptografii. Każdy blok zawiera hasz poprzedniego
-bloku, znacznik czasu oraz dane transakcji. Wyjątkiem jest tak zwany Genesis Block (pol. blok
-początkowy). Jest to pierwszy blok tworzący łańcuch powiązań z innymi blokami. Założeniem
-łańcucha bloków jest odporność na modyfikację danych oraz łatwa weryfikacja, czy dane nie
-zostały podrobione. Modyfikacja dowolnego bloku, skutkuje wygenerowaniem zupełnie innych
+<p>Blockchain to struktura danych. Konkretnie jest to rodzaj jednokierunkowej listy zawierających 
+silnie powiązane ze sobą bloki za pomocą kryptografii. Każdy blok zawiera hasz poprzedniego 
+bloku, znacznik czasu oraz dane transakcji. Wyjątkiem jest tak zwany Genesis Block (pol. blok 
+początkowy). Jest to pierwszy blok tworzący łańcuch powiązań z innymi blokami. Założeniem 
+łańcucha bloków jest odporność na modyfikację danych oraz łatwa weryfikacja, czy dane nie 
+zostały podrobione. Modyfikacja dowolnego bloku, skutkuje wygenerowaniem zupełnie innych 
 haszy dla kolejnych bloków, co pozwala na łatwą weryfikację czy dane nie zostały podrobione.</p>
 <h1 id="a-po-co-to-i-na-co-to-komu">A po co to i na co to komu?</h1>
 <p>Obecnie zastosowanie blockchain to przedewszystkim obsługa różnych transakcji jak na przykład:</p>
