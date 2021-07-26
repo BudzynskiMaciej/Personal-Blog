@@ -7,22 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
     <copyright>Copyright (c) 2021, wszelkie prawa zastrzeżone.</copyright>
-    <lastBuildDate>Mon, 30 Sep 2019 18:00:00 +0200</lastBuildDate><atom:link href="https://blog.budzynskimaciej.pl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jul 2021 20:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://blog.budzynskimaciej.pl/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
-      <title>blockchain</title>
-      <link>https://blog.budzynskimaciej.pl/tags/blockchain/</link>
-      <pubDate>Mon, 30 Sep 2019 18:00:00 +0200</pubDate>
+      <title>docker</title>
+      <link>https://blog.budzynskimaciej.pl/tags/docker/</link>
+      <pubDate>Sat, 24 Jul 2021 20:00:00 +0200</pubDate>
       
-      <guid>https://blog.budzynskimaciej.pl/tags/blockchain/</guid>
+      <guid>https://blog.budzynskimaciej.pl/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://blog.budzynskimaciej.pl/tags/linux/</link>
+      <pubDate>Sat, 24 Jul 2021 20:00:00 +0200</pubDate>
+      
+      <guid>https://blog.budzynskimaciej.pl/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>programming</title>
       <link>https://blog.budzynskimaciej.pl/tags/programming/</link>
-      <pubDate>Mon, 30 Sep 2019 18:00:00 +0200</pubDate>
+      <pubDate>Sat, 24 Jul 2021 20:00:00 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blockchain</title>
+      <link>https://blog.budzynskimaciej.pl/tags/blockchain/</link>
+      <pubDate>Mon, 30 Sep 2019 18:00:00 +0200</pubDate>
+      
+      <guid>https://blog.budzynskimaciej.pl/tags/blockchain/</guid>
       <description></description>
     </item>
     

@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
     <copyright>Copyright (c) 2021, wszelkie prawa zastrzeżone.</copyright>
-    <lastBuildDate>Sat, 28 Apr 2018 16:40:20 +0200</lastBuildDate><atom:link href="https://blog.budzynskimaciej.pl/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Apr 2018 16:40:20 +0200</lastBuildDate>
+    
+	<atom:link href="https://blog.budzynskimaciej.pl/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Blog oparty o generator stron statycznych Hugo</title>
       <link>https://blog.budzynskimaciej.pl/post/blog/</link>

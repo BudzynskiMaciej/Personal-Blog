@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on Budzyński Maciej - blog</title>
+    <link>https://blog.budzynskimaciej.pl/tags/linux/</link>
+    <description>Recent content in linux on Budzyński Maciej - blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-PL</language>
+    <copyright>Copyright (c) 2021, wszelkie prawa zastrzeżone.</copyright>
+    <lastBuildDate>Sat, 24 Jul 2021 20:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://blog.budzynskimaciej.pl/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak uzyskać dostęp do admina na Linuxie wykorzystując Dockera?</title>
+      <link>https://blog.budzynskimaciej.pl/post/docker-sudo-tricks/</link>
+      <pubDate>Sat, 24 Jul 2021 20:00:00 +0200</pubDate>
+      
+      <guid>https://blog.budzynskimaciej.pl/post/docker-sudo-tricks/</guid>
+      <description>&lt;p&gt;Nie posiadasz uprawnień administratora na lokalnym sprzęcie? Posiadasz Linuxa oraz Dockera?
+Jeżeli odpowiedź na powyższe pytania brzmi tak to w tym artykule pokażę Ci jak wykorzystać
+Dockera do modyfikacji pliku sudoers, dzięki czemu uzyskasz uprawnienia administratora.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

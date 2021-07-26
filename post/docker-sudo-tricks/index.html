@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="Maciej Budzynski" />
+<meta name="description" content="Blog programisty Maciej Budzyński" />
+<meta name="keywords" content="blog, tech, IT, programming, budzynski, maciej, budzynskimaciej, python, golang, hugo" />
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.68.3" />
+
+<link rel="canonical" href="https://blog.budzynskimaciej.pl/post/docker-sudo-tricks/">
+<base href="https://blog.budzynskimaciej.pl" />
+<meta property="og:title" content="Jak uzyskać dostęp do admina na Linuxie wykorzystując Dockera?" />
+<meta property="og:description" content="Nie posiadasz uprawnień administratora na lokalnym sprzęcie? Posiadasz Linuxa oraz Dockera?
+Jeżeli odpowiedź na powyższe pytania brzmi tak to w tym artykule pokażę Ci jak wykorzystać
+Dockera do modyfikacji pliku sudoers, dzięki czemu uzyskasz uprawnienia administratora." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.budzynskimaciej.pl/post/docker-sudo-tricks/" />
+<meta property="article:published_time" content="2021-07-24T20:00:00+02:00" />
+<meta property="article:modified_time" content="2021-07-24T20:00:00+02:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Jak uzyskać dostęp do admina na Linuxie wykorzystując Dockera?"/>
+<meta name="twitter:description" content="Nie posiadasz uprawnień administratora na lokalnym sprzęcie? Posiadasz Linuxa oraz Dockera?
+Jeżeli odpowiedź na powyższe pytania brzmi tak to w tym artykule pokażę Ci jak wykorzystać
+Dockera do modyfikacji pliku sudoers, dzięki czemu uzyskasz uprawnienia administratora."/>
+
+
+<meta itemprop="name" content="Jak uzyskać dostęp do admina na Linuxie wykorzystując Dockera?">
+<meta itemprop="description" content="Nie posiadasz uprawnień administratora na lokalnym sprzęcie? Posiadasz Linuxa oraz Dockera?
+Jeżeli odpowiedź na powyższe pytania brzmi tak to w tym artykule pokażę Ci jak wykorzystać
+Dockera do modyfikacji pliku sudoers, dzięki czemu uzyskasz uprawnienia administratora.">
+<meta itemprop="datePublished" content="2021-07-24T20:00:00&#43;02:00" />
+<meta itemprop="dateModified" content="2021-07-24T20:00:00&#43;02:00" />
+<meta itemprop="wordCount" content="649">
+
+
+
+<meta itemprop="keywords" content="programming,docker,linux," />
+
+<link rel="stylesheet" href="https://blog.budzynskimaciej.pl/css/layout.css" />
+<link rel="stylesheet" href="https://blog.budzynskimaciej.pl/css/syntax.css" />
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-89868475-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+<link rel="stylesheet" href="https://blog.budzynskimaciej.pl/css/default-dark.css" />
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-89868475-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+<title>
+
+
+     Jak uzyskać dostęp do admina na Linuxie wykorzystując Dockera? 
+
+</title>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2680675523084485",
+    enable_page_level_ads: true
+  });
+</script>
+
+</head>
+
+
+<body>
+<div class="main">
+<header>
+
+<div class="header-bar">
+
+  <nav>
+    <div class="siteTitle">
+      <a href="https://blog.budzynskimaciej.pl">Budzyński Maciej - blog</a>
+    </div> 
+
+    
+    
+    <a class="nav-item" href="https://blog.budzynskimaciej.pl/post/"><div class="nav-item-title">Posty</div></a>
+    
+    <a class="nav-item" href="https://blog.budzynskimaciej.pl/tags/"><div class="nav-item-title">Tagi</div></a>
+    
+    <a class="nav-item" href="https://blog.budzynskimaciej.pl/about/"><div class="nav-item-title">O mnie</div></a>
+    
+    <a class="nav-item" href="https://blog.budzynskimaciej.pl/projects/"><div class="nav-item-title">Projekty</div></a>
+    
+
+  </nav>
+</div>
+
+
+</header>
+
+
+<article class="post">
+    <h1 class="title"> Jak uzyskać dostęp do admina na Linuxie wykorzystując Dockera? </h1>
+    <div class="content"> <p>Nie posiadasz uprawnień administratora na lokalnym sprzęcie? Posiadasz Linuxa oraz Dockera?
+Jeżeli odpowiedź na powyższe pytania brzmi tak to w tym artykule pokażę Ci jak wykorzystać
+Dockera do modyfikacji pliku sudoers, dzięki czemu uzyskasz uprawnienia administratora.</p>
+<h1 id="wymagania-wstępne">Wymagania wstępne</h1>
+<p>Przedstawiony tutaj sposób wymaga, aby użytkownik z ograniczeniami miał dostęp do komend dockerowych,
+tzn. użytkownik należy do grupy docker. Konfiguracja dockera wymaga, aby użytkownik należał do
+tej grupy. Sposób ten działa wyłącznie na systemie Linux (testowane na Ubuntu).</p>
+<h1 id="tldr">TLDR</h1>
+<ul>
+<li>
+<p>Odpalenie alpine linuxa z zamontowaniem pliku <code>/etc/sudoers</code> jako <code>sudoers</code> w kontenerze:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker run -it -v /etc/sudoers:/sudoers --rm alpine /bin/sh</code></pre></div></p>
+</li>
+<li>
+<p>Zmiana uprawnień w celu edycji pliku <code>sudoers</code> za pomocą vi:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">chmod <span style="color:#ae81ff">777</span> sudoers
+vi sudoers</code></pre></div></p>
+</li>
+<li>
+<p>Dodanie użytkownikowi wymaganych uprawnień w pliku <code>sudoers</code> (klawisz <code>i</code> w celu dodania wpisu):
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Pomiedzy user a ALL wymagana jest tabulacja (raz TAB, nie 4 spacje)</span>
+user	ALL<span style="color:#f92672">=(</span>ALL:ALL<span style="color:#f92672">)</span> ALL</code></pre></div></p>
+</li>
+<li>
+<p>Wyjście z zapisem z vi:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">:wq</code></pre></div></p>
+</li>
+<li>
+<p>Ponowna zmiana uprawnień pliku <code>sudoers</code> na domyślne wartości oraz wyjście z konsoli kontenera:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">chmod <span style="color:#ae81ff">755</span> sudoers
+exit</code></pre></div></p>
+</li>
+<li>
+<p>Weryfikacja zmian w pliku <code>sudoers</code>:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cat /etc/sudoers
+sudo su</code></pre></div></p>
+</li>
+</ul>
+<h1 id="opis-poszczególnych-komend">Opis poszczególnych komend</h1>
+<h2 id="docker-run--it--v-etcsudoerssudoers---rm-alpine-binsh">docker run -it -v /etc/sudoers:/sudoers &ndash;rm alpine /bin/sh</h2>
+<p>Komenda ta pozwala na pobranie obrazu alpine linuxa, a następnie odpalenie kontenera z tego obrazu.
+Parametr <code>-it</code> odpowiada za odpalenie trybu interaktywnego (pozostawia otwarty STDIN, nawet jeśli nie
+jest podłączony) oraz przydzielenie pseudo-TTY.
+Parametr <code>-v</code> wiążę katalog bądź plik hosta z wolumenem kontenera. W tym przypadku tworzymy powiązanie
+dla pliku hosta <code>/etc/sudoers</code> z plikiem <code>sudoers</code> w katalogu głównym naszego kontenera.
+Parametr <code>--rm</code> sprawia, że po zamknięciu i wyjściu z shella, utworzony kontener zostanie usunięty.
+Fragment <code>alpine /bin/sh</code> odpowiada za wybranie obrazu, z którego zostanie utworzony kontener (w tym
+przypadku linux alpine) oraz odpalenie polecenia (programu) <code>/bin/sh</code>, czyli powłoki systemu (shell).</p>
+<h2 id="chmod-777-sudoers-oraz-vi-sudoers">chmod 777 sudoers oraz vi sudoers</h2>
+<p>Plik <code>/etc/sudoers</code> domyślnie jest zabezpieczony przed edycją. Ze względu, że alpine jest minimalistyczną
+dystrybucją linuxa posiada domyślnie edytor plików vi. Pliki <code>sudoers</code> powinny być edytowane za pomocą
+visudo, jednak w alpine nie ma domyślnie tego zainstalowane. W celu edycji pliku należy nadać pełne
+uprawnienia do pliku obecnemu użytkowniki za pomocą komendy <code>chmod 777 sudoers</code> odpalonej w kontenerze z
+alpine. Następnie można otworzyć plik sudoers wykorzystując edytor vi za pomocą komendy: <code>vi sudoers</code>.
+Aby móc wpisywać tekst w edytorze vi należy nacisnąć na klawiaturze przyciski <code>i</code>.</p>
+<h2 id="userallallall-all">user	ALL=(ALL:ALL) ALL</h2>
+<p>Powyższy wpis pozwala na dodanie użytkownikowi <code>user</code> uprawnień do wykonywania wszystkich komend.
+Pierwsze pole wskazuje nazwę użytkownika, którego dotyczy reguła (user).
+Pierwsze „ALL” oznacza, że ta reguła dotyczy wszystkich hostów.
+Drugie „ALL” oznacza, że użytkownik user może uruchamiać polecenia jako wszyscy użytkownicy.
+Trzecie „ALL” oznacza, że użytkownik user może uruchamiać polecenia jako wszystkie grupy.
+Czwarte „ALL” oznacza, że te zasady dotyczą wszystkich poleceń (komend).
+Należy pamiętać o zachowaniu odpowiedniego formatowania w pliku. W przypadku Ubuntu między user, a ALL
+był odstęp z wykorzystaniem pojedynczej tabulacji (nie cztery spacje). Osobiście nie jestem, pewien
+czy użycie pojedynczej spacji, bądź 4 spacji nie zepsuje niczego, więc dla pewności zachowałem docelowe
+formatowanie.</p>
+<h2 id="wyjście-z-vi">Wyjście z vi</h2>
+<p>W celu wyjścia z edytora vi zapisując zmiany, należy nacisnąć na klawiaturze klawisz <code>esc</code>, a następnie wpisać
+<code>:wq</code>. Polecenia po dwukropku to komendy dla vi. <code>w</code> oznacza, iż chcemy zapisać zmiany wprowadzone w pliku
+natomiast <code>q</code> oznacza zamknięcie pliku.</p>
+<h2 id="chmod-755-sudoers-oraz-exit">chmod 755 sudoers oraz exit</h2>
+<p>Zmieniamy uprawnienia do pliku sudoers na domyślne wartości przed edycją, a następnie wychodzimy z powłoki
+kontenera za pomocą komendy <code>exit</code>. Po wyjściu kontener z alpine zostanie usunięty. Pozostanie wyłącznie
+pobrany obraz na dysku.</p>
+<h2 id="cat-etcsudoers-oraz-sudo-su">cat /etc/sudoers oraz sudo su</h2>
+<p>W celu weryfikacji dostępów możemy wykorzystać polecenie <code>cat /etc/sudoers</code>, aby sprawdzić, czy wpisy
+poprawnie się dodały. Możemy też użyć komendy <code>sudo su</code>, aby sprawdzić, czy możemy wykonywać polecenia
+jako sudo.</p>
+<h1 id="wniosek">Wniosek</h1>
+<p>Jak widać docker pozwala na zmianę uprawnień dla użytkownika i modyfikację plików, do których domyślnie
+nie posiadamy dostępu. Grupa Docker należy do grup administratorskich, przez co użytkownik będący w tej
+grupie posiadający dostęp do wykonywania komend dockera, ma możliwość dowolnej modyfikacji plików, bez
+konieczności dostępu do praw administratora.</p> </div>
+    <footer class="post-footer">
+
+  <div class="post-footer-data">
+    
+<div class="tags">
+    
+      <div class="tag">
+        <a href="https://blog.budzynskimaciej.pl/tags/programming">#programming</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://blog.budzynskimaciej.pl/tags/docker">#docker</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://blog.budzynskimaciej.pl/tags/linux">#linux</a>
+      </div>
+    
+</div>
+
+    <div class="date"> 24 Lipiec 2021 </div>
+  </div>
+
+</footer>
+
+
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'budzynskimaciej';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>
+  Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+</article>
+
+  <footer>
+
+  <div class="social-links-footer">
+
+  
+  <a href="mailto:kontakt@budzynskimaciej.pl"><div class="social-link">Email</div></a>
+  
+
+  
+  <a href="https://github.com/BudzynskiMaciej" target="_blank"><div class="social-link">GitHub</div></a>
+  
+
+  
+
+  
+  <a href="https://twitter.com/BudzynskiMaciek" target="_blank"><div class="social-link">Twitter</div></a>
+  
+
+  
+  <a href="https://www.linkedin.com/in/maciej-budzy%c5%84ski-206811127" target="_blank"><div class="social-link">LinkedIn</div></a>
+  
+
+  <div class="social-link">
+  <a href="https://blog.budzynskimaciej.pl/index.xml" target="_blank">RSS</a>
+  </div>
+
+</div>
+
+
+  <div class="copyright"> Copyright (c) 2021, wszelkie prawa zastrzeżone. </div>
+
+  <div class="poweredby">
+    Blog napędzany przez <a href="https://gohugo.io/">Hugo</a>.
+  </div>
+
+  </footer>
+
+</div> 
+
+</body>
+</html>
+

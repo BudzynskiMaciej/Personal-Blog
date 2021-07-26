@@ -7,14 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
     <copyright>Copyright (c) 2021, wszelkie prawa zastrzeżone.</copyright>
-    <lastBuildDate>Mon, 30 Sep 2019 18:00:00 +0200</lastBuildDate><atom:link href="https://blog.budzynskimaciej.pl/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jul 2021 20:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://blog.budzynskimaciej.pl/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak uzyskać dostęp do admina na Linuxie wykorzystując Dockera?</title>
+      <link>https://blog.budzynskimaciej.pl/post/docker-sudo-tricks/</link>
+      <pubDate>Sat, 24 Jul 2021 20:00:00 +0200</pubDate>
+      
+      <guid>https://blog.budzynskimaciej.pl/post/docker-sudo-tricks/</guid>
+      <description>&lt;p&gt;Nie posiadasz uprawnień administratora na lokalnym sprzęcie? Posiadasz Linuxa oraz Dockera?
+Jeżeli odpowiedź na powyższe pytania brzmi tak to w tym artykule pokażę Ci jak wykorzystać
+Dockera do modyfikacji pliku sudoers, dzięki czemu uzyskasz uprawnienia administratora.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Czym jest Blockchain?</title>
       <link>https://blog.budzynskimaciej.pl/post/blockchain-p1/</link>
       <pubDate>Mon, 30 Sep 2019 18:00:00 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/post/blockchain-p1/</guid>
-      <description>&lt;p&gt;Blockchain (po polsku łańcuch bloków) jest ostatnio popularnym słowem w odmętach internetu. 
+      <description>&lt;p&gt;Blockchain (po polsku łańcuch bloków) jest ostatnio popularnym słowem w odmętach internetu.
 W tym artykule postaram się zdemaskować czym jest sławny Blockchain oraz do czego może
 być przydatny.&lt;/p&gt;</description>
     </item>
