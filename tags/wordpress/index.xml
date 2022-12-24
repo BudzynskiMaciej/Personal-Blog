@@ -6,19 +6,15 @@
     <description>Recent content in wordpress on Budzyński Maciej - blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
-    <copyright>Copyright (c) 2022, wszelkie prawa zastrzeżone.</copyright>
-    <lastBuildDate>Sat, 28 Apr 2018 16:40:20 +0200</lastBuildDate>
-    
-	<atom:link href="https://blog.budzynskimaciej.pl/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Copyright (c) 2023, wszelkie prawa zastrzeżone.</copyright>
+    <lastBuildDate>Sat, 28 Apr 2018 16:40:20 +0200</lastBuildDate><atom:link href="https://blog.budzynskimaciej.pl/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog oparty o generator stron statycznych Hugo</title>
       <link>https://blog.budzynskimaciej.pl/post/blog/</link>
       <pubDate>Sat, 28 Apr 2018 16:40:20 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/post/blog/</guid>
-      <description>&lt;p&gt;W aktualnych czasach każdy posiada swoją stronę w internecie. Ja postanowiłem założyć bloga 
+      <description>&lt;p&gt;W aktualnych czasach każdy posiada swoją stronę w internecie. Ja postanowiłem założyć bloga
 opartego o technologię Hugo.&lt;/p&gt;</description>
     </item>
     
