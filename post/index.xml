@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Budzyński Maciej - blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
-    <copyright>Copyright (c) 2023, wszelkie prawa zastrzeżone.</copyright>
+    <copyright>Copyright (c) 2024, wszelkie prawa zastrzeżone.</copyright>
     <lastBuildDate>Sat, 24 Jul 2021 20:00:00 +0200</lastBuildDate><atom:link href="https://blog.budzynskimaciej.pl/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jak uzyskać dostęp do admina na Linuxie wykorzystując Dockera?</title>
@@ -56,7 +56,7 @@ oraz podam przykład ich stosowania.&lt;/p&gt;</description>
       <pubDate>Sat, 28 Apr 2018 16:40:20 +0200</pubDate>
       
       <guid>https://blog.budzynskimaciej.pl/post/blog/</guid>
-      <description>&lt;p&gt;W aktualnych czasach każdy posiada swoją stronę w internecie. Ja postanowiłem założyć bloga
+      <description>&lt;p&gt;W aktualnych czasach każdy posiada swoją stronę w internecie. Ja postanowiłem założyć bloga 
 opartego o technologię Hugo.&lt;/p&gt;</description>
     </item>
     
