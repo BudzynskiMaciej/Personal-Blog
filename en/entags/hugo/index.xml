@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hugo on Budzyński Maciej - blog</title>
+    <link>https://blog.budzynskimaciej.pl/en/entags/hugo/</link>
+    <description>Recent content in Hugo on Budzyński Maciej - blog</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 10 Jun 2019 10:40:00 +0200</lastBuildDate>
+    <atom:link href="https://blog.budzynskimaciej.pl/en/entags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forestry and Hugo</title>
+      <link>https://blog.budzynskimaciej.pl/en/post/forestry-and-hugo/</link>
+      <pubDate>Mon, 10 Jun 2019 10:40:00 +0200</pubDate>
+      <guid>https://blog.budzynskimaciej.pl/en/post/forestry-and-hugo/</guid>
+      <description>&lt;p&gt;I haven&amp;rsquo;t written here for a long time, but it&amp;rsquo;s worth refreshing this blog a bit. Today&amp;rsquo;s post will be short, and in it, I intend to present the integration of Hugo with the Forestry.io platform.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Blog based on the Hugo static site generator</title>
+      <link>https://blog.budzynskimaciej.pl/en/post/blog/</link>
+      <pubDate>Sat, 28 Apr 2018 16:40:20 +0200</pubDate>
+      <guid>https://blog.budzynskimaciej.pl/en/post/blog/</guid>
+      <description>&lt;p&gt;Nowadays, everyone has their own website on the internet. I decided to start a blog based on Hugo technology.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

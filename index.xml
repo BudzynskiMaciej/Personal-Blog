@@ -1,96 +1,103 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Budzyński Maciej - blog</title>
     <link>https://blog.budzynskimaciej.pl/</link>
     <description>Recent content on Budzyński Maciej - blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>pl-PL</language>
-    <copyright>Copyright (c) 2024, wszelkie prawa zastrzeżone.</copyright>
-    <lastBuildDate>Sat, 24 Jul 2021 20:00:00 +0200</lastBuildDate><atom:link href="https://blog.budzynskimaciej.pl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jan 2025 13:00:00 +0200</lastBuildDate>
+    <atom:link href="https://blog.budzynskimaciej.pl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Odświeżenie i aktualizacja strony</title>
+      <link>https://blog.budzynskimaciej.pl/post/site-update-and-changes/</link>
+      <pubDate>Mon, 06 Jan 2025 13:00:00 +0200</pubDate>
+      <guid>https://blog.budzynskimaciej.pl/post/site-update-and-changes/</guid>
+      <description>&lt;p&gt;Bardzo dawno tutaj nie pisałem, a moja aktywność opierała się o coroczne podbijanie
+znaku copyright. Z powodu aktualizacji Hugo, byłem zmuszony do odświeżenia strony i
+aktualizacji znajdujących się tu treści.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>O mnie</title>
       <link>https://blog.budzynskimaciej.pl/about/</link>
       <pubDate>Sat, 24 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.budzynskimaciej.pl/about/</guid>
-      <description>O mnie Nazywam się Maciej Budzyński, jestem miłośnikiem technologi oraz absolwentem informatyki na Katolickim Uniwersytecie Lubelskim. Ukończyłem również technikum na kierunku informatycznym, posiadam dyplom technika informatyki (klasyfikacje E12, E13, E14).
-Obecnie pracuję jako inżynier oprogramowania dla Ringier Axel Springer Tech. W pracy tej wykorzystuję technologie takie jak Python, C, JavaScript, Docker, AWS, Salt, MySQL oraz Couchbase. Do moich obowiazków należy utrzymanie oraz rozwój produktu Onet Poczta.
-Wcześniej pracowałem jako kontraktor (programista Python) dla światowego lidera w dziedzinie farmacji i diagnostyki, a bezpośrednio dla Nexio Management jako programista Python.</description>
+      <description>&lt;h1 id=&#34;o-mnie&#34;&gt;O mnie&lt;/h1&gt;
+&lt;p&gt;Nazywam się Maciej Budzyński, jestem miłośnikiem technologi oraz absolwentem
+informatyki na Katolickim Uniwersytecie Lubelskim. Ukończyłem również
+technikum na kierunku informatycznym, posiadam dyplom technika informatyki
+(klasyfikacje E12, E13, E14).&lt;/p&gt;
+&lt;p&gt;Obecnie pracuję jako inżynier oprogramowania dla
+&lt;a href=&#34;https://tech.ringieraxelspringer.com/&#34;&gt;Ringier Axel Springer Tech&lt;/a&gt;.
+W pracy tej wykorzystuję technologie takie jak Python, C, JavaScript, Docker,
+AWS, Salt, MySQL oraz Couchbase. Do moich obowiazków należy utrzymanie oraz
+rozwój produktu &lt;a href=&#34;https://poczta.onet.pl/&#34;&gt;Onet Poczta&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Wcześniej pracowałem jako kontraktor (programista Python) dla światowego
+lidera w dziedzinie farmacji i diagnostyki, a bezpośrednio dla
+&lt;a href=&#34;https://www.nexio.pl/&#34;&gt;Nexio Management&lt;/a&gt; jako programista Python. Na co dzień
+miełem styczność z wieloma bibliotekami oraz frameworkami Pythona takimi jak:
+FastAPI, SQLAlchemy, sphinx, pytest, poetry.&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Projekty</title>
-      <link>https://blog.budzynskimaciej.pl/projects/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.budzynskimaciej.pl/projects/</guid>
-      <description>Moje Projekty Większość moich publicznych projektów znajduje się na moim koncie na GitHub.
-Strona w Budowie </description>
-    </item>
-    
     <item>
       <title>Jak uzyskać dostęp do admina na Linuxie wykorzystując Dockera?</title>
       <link>https://blog.budzynskimaciej.pl/post/docker-sudo-tricks/</link>
       <pubDate>Sat, 24 Jul 2021 20:00:00 +0200</pubDate>
-      
       <guid>https://blog.budzynskimaciej.pl/post/docker-sudo-tricks/</guid>
       <description>&lt;p&gt;Nie posiadasz uprawnień administratora na lokalnym sprzęcie? Posiadasz Linuxa oraz Dockera?
 Jeżeli odpowiedź na powyższe pytania brzmi tak to w tym artykule pokażę Ci jak wykorzystać
 Dockera do modyfikacji pliku sudoers, dzięki czemu uzyskasz uprawnienia administratora.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Projekty</title>
+      <link>https://blog.budzynskimaciej.pl/projects/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://blog.budzynskimaciej.pl/projects/</guid>
+      <description>&lt;h2 id=&#34;projekty&#34;&gt;Projekty&lt;/h2&gt;
+&lt;p&gt;Większość moich publicznych projektów znajduje się na moim koncie na
+&lt;a href=&#34;https://github.com/BudzynskiMaciej&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;strona-w-budowiehttpsgithubcombudzynskimaciej&#34;&gt;&lt;a href=&#34;https://github.com/BudzynskiMaciej&#34;&gt;Strona w Budowie&lt;/a&gt;&lt;/h3&gt;</description>
+    </item>
     <item>
       <title>Czym jest Blockchain?</title>
       <link>https://blog.budzynskimaciej.pl/post/blockchain-p1/</link>
       <pubDate>Mon, 30 Sep 2019 18:00:00 +0200</pubDate>
-      
       <guid>https://blog.budzynskimaciej.pl/post/blockchain-p1/</guid>
       <description>&lt;p&gt;Blockchain (po polsku łańcuch bloków) jest ostatnio popularnym słowem w odmętach internetu.
 W tym artykule postaram się zdemaskować czym jest sławny Blockchain oraz do czego może
 być przydatny.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Forestry i Hugo</title>
       <link>https://blog.budzynskimaciej.pl/post/forestry-and-hugo/</link>
       <pubDate>Mon, 10 Jun 2019 10:40:00 +0200</pubDate>
-      
       <guid>https://blog.budzynskimaciej.pl/post/forestry-and-hugo/</guid>
       <description>&lt;p&gt;Dawno tu nie pisałem, jednak warto trochę odświeżyć tego bloga. Dzisiejszy wpis będzie krótki, a we wpisie zamierzam przedstawić intergrację Hugo z platformą Forestry.io&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Upiększanie ciągów znaków, czyli jak formatować stringi w Pythonie</title>
       <link>https://blog.budzynskimaciej.pl/post/string-in-python/</link>
       <pubDate>Mon, 17 Sep 2018 20:00:00 +0200</pubDate>
-      
       <guid>https://blog.budzynskimaciej.pl/post/string-in-python/</guid>
       <description>&lt;p&gt;W pythonie istniały dwie metody formatowania stringów. Sytuacja ta trwała do czasu pojawienia się
 Python 3.6, wraz z nadejściem f-stringów. Dziś postaram się omówić wszystkie metody formatowania,
 oraz podam przykład ich stosowania.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Blog oparty o generator stron statycznych Hugo</title>
       <link>https://blog.budzynskimaciej.pl/post/blog/</link>
       <pubDate>Sat, 28 Apr 2018 16:40:20 +0200</pubDate>
-      
       <guid>https://blog.budzynskimaciej.pl/post/blog/</guid>
-      <description>&lt;p&gt;W aktualnych czasach każdy posiada swoją stronę w internecie. Ja postanowiłem założyć bloga 
+      <description>&lt;p&gt;W aktualnych czasach każdy posiada swoją stronę w internecie. Ja postanowiłem założyć bloga
 opartego o technologię Hugo.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Jaki język programowania wybrać na początek, czyli multi-Hello World</title>
       <link>https://blog.budzynskimaciej.pl/post/helloworld/</link>
       <pubDate>Sat, 28 Apr 2018 15:04:50 +0200</pubDate>
-      
       <guid>https://blog.budzynskimaciej.pl/post/helloworld/</guid>
       <description>&lt;p&gt;Zastanawiasz sie nad wyborem języka programowania? Nie masz pojęcia który z nich wybrać?
 W takim razie ten post jest dla Ciebie. Przygotowałem w nim krótkie opisy różnych języków
 programowania oraz podstawowy kod programu Hello World.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

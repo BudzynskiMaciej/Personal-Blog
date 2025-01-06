@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Budzyński Maciej - blog</title>
     <link>https://blog.budzynskimaciej.pl/categories/</link>
     <description>Recent content in Categories on Budzyński Maciej - blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>pl-PL</language>
-    <copyright>Copyright (c) 2024, wszelkie prawa zastrzeżone.</copyright>
-    <lastBuildDate>Sat, 24 Jul 2021 20:00:00 +0200</lastBuildDate><atom:link href="https://blog.budzynskimaciej.pl/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jan 2025 13:00:00 +0200</lastBuildDate>
+    <atom:link href="https://blog.budzynskimaciej.pl/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>programming</title>
+      <title>Programming</title>
       <link>https://blog.budzynskimaciej.pl/categories/programming/</link>
-      <pubDate>Sat, 24 Jul 2021 20:00:00 +0200</pubDate>
-      
+      <pubDate>Mon, 06 Jan 2025 13:00:00 +0200</pubDate>
       <guid>https://blog.budzynskimaciej.pl/categories/programming/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>opinia</title>
+      <title>Opinia</title>
       <link>https://blog.budzynskimaciej.pl/categories/opinia/</link>
       <pubDate>Sat, 28 Apr 2018 16:40:20 +0200</pubDate>
-      
       <guid>https://blog.budzynskimaciej.pl/categories/opinia/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>poradnik</title>
+      <title>Poradnik</title>
       <link>https://blog.budzynskimaciej.pl/categories/poradnik/</link>
       <pubDate>Sat, 28 Apr 2018 16:40:20 +0200</pubDate>
-      
       <guid>https://blog.budzynskimaciej.pl/categories/poradnik/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -1,65 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>programming on Budzyński Maciej - blog</title>
+    <title>Programming on Budzyński Maciej - blog</title>
     <link>https://blog.budzynskimaciej.pl/categories/programming/</link>
-    <description>Recent content in programming on Budzyński Maciej - blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Programming on Budzyński Maciej - blog</description>
+    <generator>Hugo -- 0.140.2</generator>
     <language>pl-PL</language>
-    <copyright>Copyright (c) 2024, wszelkie prawa zastrzeżone.</copyright>
-    <lastBuildDate>Sat, 24 Jul 2021 20:00:00 +0200</lastBuildDate><atom:link href="https://blog.budzynskimaciej.pl/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jan 2025 13:00:00 +0200</lastBuildDate>
+    <atom:link href="https://blog.budzynskimaciej.pl/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Odświeżenie i aktualizacja strony</title>
+      <link>https://blog.budzynskimaciej.pl/post/site-update-and-changes/</link>
+      <pubDate>Mon, 06 Jan 2025 13:00:00 +0200</pubDate>
+      <guid>https://blog.budzynskimaciej.pl/post/site-update-and-changes/</guid>
+      <description>&lt;p&gt;Bardzo dawno tutaj nie pisałem, a moja aktywność opierała się o coroczne podbijanie
+znaku copyright. Z powodu aktualizacji Hugo, byłem zmuszony do odświeżenia strony i
+aktualizacji znajdujących się tu treści.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Jak uzyskać dostęp do admina na Linuxie wykorzystując Dockera?</title>
       <link>https://blog.budzynskimaciej.pl/post/docker-sudo-tricks/</link>
       <pubDate>Sat, 24 Jul 2021 20:00:00 +0200</pubDate>
-      
       <guid>https://blog.budzynskimaciej.pl/post/docker-sudo-tricks/</guid>
       <description>&lt;p&gt;Nie posiadasz uprawnień administratora na lokalnym sprzęcie? Posiadasz Linuxa oraz Dockera?
 Jeżeli odpowiedź na powyższe pytania brzmi tak to w tym artykule pokażę Ci jak wykorzystać
 Dockera do modyfikacji pliku sudoers, dzięki czemu uzyskasz uprawnienia administratora.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Czym jest Blockchain?</title>
       <link>https://blog.budzynskimaciej.pl/post/blockchain-p1/</link>
       <pubDate>Mon, 30 Sep 2019 18:00:00 +0200</pubDate>
-      
       <guid>https://blog.budzynskimaciej.pl/post/blockchain-p1/</guid>
       <description>&lt;p&gt;Blockchain (po polsku łańcuch bloków) jest ostatnio popularnym słowem w odmętach internetu.
 W tym artykule postaram się zdemaskować czym jest sławny Blockchain oraz do czego może
 być przydatny.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Forestry i Hugo</title>
       <link>https://blog.budzynskimaciej.pl/post/forestry-and-hugo/</link>
       <pubDate>Mon, 10 Jun 2019 10:40:00 +0200</pubDate>
-      
       <guid>https://blog.budzynskimaciej.pl/post/forestry-and-hugo/</guid>
       <description>&lt;p&gt;Dawno tu nie pisałem, jednak warto trochę odświeżyć tego bloga. Dzisiejszy wpis będzie krótki, a we wpisie zamierzam przedstawić intergrację Hugo z platformą Forestry.io&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Upiększanie ciągów znaków, czyli jak formatować stringi w Pythonie</title>
       <link>https://blog.budzynskimaciej.pl/post/string-in-python/</link>
       <pubDate>Mon, 17 Sep 2018 20:00:00 +0200</pubDate>
-      
       <guid>https://blog.budzynskimaciej.pl/post/string-in-python/</guid>
       <description>&lt;p&gt;W pythonie istniały dwie metody formatowania stringów. Sytuacja ta trwała do czasu pojawienia się
 Python 3.6, wraz z nadejściem f-stringów. Dziś postaram się omówić wszystkie metody formatowania,
 oraz podam przykład ich stosowania.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Jaki język programowania wybrać na początek, czyli multi-Hello World</title>
       <link>https://blog.budzynskimaciej.pl/post/helloworld/</link>
       <pubDate>Sat, 28 Apr 2018 15:04:50 +0200</pubDate>
-      
       <guid>https://blog.budzynskimaciej.pl/post/helloworld/</guid>
       <description>&lt;p&gt;Zastanawiasz sie nad wyborem języka programowania? Nie masz pojęcia który z nich wybrać?
 W takim razie ten post jest dla Ciebie. Przygotowałem w nim krótkie opisy różnych języków
 programowania oraz podstawowy kod programu Hello World.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

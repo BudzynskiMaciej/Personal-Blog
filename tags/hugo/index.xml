@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>hugo on Budzyński Maciej - blog</title>
+    <title>Hugo on Budzyński Maciej - blog</title>
     <link>https://blog.budzynskimaciej.pl/tags/hugo/</link>
-    <description>Recent content in hugo on Budzyński Maciej - blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Hugo on Budzyński Maciej - blog</description>
+    <generator>Hugo -- 0.140.2</generator>
     <language>pl-PL</language>
-    <copyright>Copyright (c) 2024, wszelkie prawa zastrzeżone.</copyright>
-    <lastBuildDate>Mon, 10 Jun 2019 10:40:00 +0200</lastBuildDate><atom:link href="https://blog.budzynskimaciej.pl/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jan 2025 13:00:00 +0200</lastBuildDate>
+    <atom:link href="https://blog.budzynskimaciej.pl/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Odświeżenie i aktualizacja strony</title>
+      <link>https://blog.budzynskimaciej.pl/post/site-update-and-changes/</link>
+      <pubDate>Mon, 06 Jan 2025 13:00:00 +0200</pubDate>
+      <guid>https://blog.budzynskimaciej.pl/post/site-update-and-changes/</guid>
+      <description>&lt;p&gt;Bardzo dawno tutaj nie pisałem, a moja aktywność opierała się o coroczne podbijanie
+znaku copyright. Z powodu aktualizacji Hugo, byłem zmuszony do odświeżenia strony i
+aktualizacji znajdujących się tu treści.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Forestry i Hugo</title>
       <link>https://blog.budzynskimaciej.pl/post/forestry-and-hugo/</link>
       <pubDate>Mon, 10 Jun 2019 10:40:00 +0200</pubDate>
-      
       <guid>https://blog.budzynskimaciej.pl/post/forestry-and-hugo/</guid>
       <description>&lt;p&gt;Dawno tu nie pisałem, jednak warto trochę odświeżyć tego bloga. Dzisiejszy wpis będzie krótki, a we wpisie zamierzam przedstawić intergrację Hugo z platformą Forestry.io&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Blog oparty o generator stron statycznych Hugo</title>
       <link>https://blog.budzynskimaciej.pl/post/blog/</link>
       <pubDate>Sat, 28 Apr 2018 16:40:20 +0200</pubDate>
-      
       <guid>https://blog.budzynskimaciej.pl/post/blog/</guid>
-      <description>&lt;p&gt;W aktualnych czasach każdy posiada swoją stronę w internecie. Ja postanowiłem założyć bloga 
+      <description>&lt;p&gt;W aktualnych czasach każdy posiada swoją stronę w internecie. Ja postanowiłem założyć bloga
 opartego o technologię Hugo.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
