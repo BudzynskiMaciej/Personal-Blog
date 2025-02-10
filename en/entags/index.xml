@@ -4,10 +4,38 @@
     <title>Entags on Budzyński Maciej - blog</title>
     <link>https://blog.budzynskimaciej.pl/en/entags/</link>
     <description>Recent content in Entags on Budzyński Maciej - blog</description>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 24 Jul 2021 20:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2025 18:00:00 +0200</lastBuildDate>
     <atom:link href="https://blog.budzynskimaciej.pl/en/entags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ENtags/AI</title>
+      <link>https://blog.budzynskimaciej.pl/en/entags/ai/</link>
+      <pubDate>Mon, 10 Feb 2025 18:00:00 +0200</pubDate>
+      <guid>https://blog.budzynskimaciej.pl/en/entags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ENtags/LLM</title>
+      <link>https://blog.budzynskimaciej.pl/en/entags/llm/</link>
+      <pubDate>Mon, 10 Feb 2025 18:00:00 +0200</pubDate>
+      <guid>https://blog.budzynskimaciej.pl/en/entags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ENtags/LocalAI</title>
+      <link>https://blog.budzynskimaciej.pl/en/entags/localai/</link>
+      <pubDate>Mon, 10 Feb 2025 18:00:00 +0200</pubDate>
+      <guid>https://blog.budzynskimaciej.pl/en/entags/localai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ENtags/Ollama</title>
+      <link>https://blog.budzynskimaciej.pl/en/entags/ollama/</link>
+      <pubDate>Mon, 10 Feb 2025 18:00:00 +0200</pubDate>
+      <guid>https://blog.budzynskimaciej.pl/en/entags/ollama/</guid>
+      <description></description>
+    </item>
     <item>
       <title>ENtags/Docker</title>
       <link>https://blog.budzynskimaciej.pl/en/entags/docker/</link>

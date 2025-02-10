@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ENtags/AI on Budzyński Maciej - blog</title>
+    <link>https://blog.budzynskimaciej.pl/en/entags/ai/</link>
+    <description>Recent content in ENtags/AI on Budzyński Maciej - blog</description>
+    <generator>Hugo -- 0.143.1</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 10 Feb 2025 18:00:00 +0200</lastBuildDate>
+    <atom:link href="https://blog.budzynskimaciej.pl/en/entags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI, LocalLLM and DeepSeek. What is it all about and how to dive into the world of LLM?</title>
+      <link>https://blog.budzynskimaciej.pl/en/post/ai-and-llms/</link>
+      <pubDate>Mon, 10 Feb 2025 18:00:00 +0200</pubDate>
+      <guid>https://blog.budzynskimaciej.pl/en/post/ai-and-llms/</guid>
+      <description>&lt;p&gt;Artificial Intelligence (AI) has become one of the most transformative technologies of our time. From chatbots to autonomous vehicles, AI is reshaping industries and our daily lives. In this article, I will explain what AI is, how Large Language Models (LLMs) work, and how you can run AI models locally using tools like Ollama and LM Studio.&lt;/p&gt;
+&lt;h1 id=&#34;what-is-artificial-intelligence&#34;&gt;What is Artificial Intelligence?&lt;/h1&gt;
+&lt;p&gt;Artificial Intelligence (AI) refers to computer systems capable of performing tasks that typically require human intelligence. These tasks include understanding natural language, recognizing images, making decisions, and even generating creative content. AI is broadly categorized into:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

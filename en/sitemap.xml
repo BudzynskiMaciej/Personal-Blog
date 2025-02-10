@@ -2,8 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.budzynskimaciej.pl/en/post/ai-and-llms/</loc>
+    <lastmod>2025-02-10T18:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl-PL"
+                href="https://blog.budzynskimaciej.pl/post/ai-and-llms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://blog.budzynskimaciej.pl/en/post/ai-and-llms/"
+                />
+  </url><url>
     <loc>https://blog.budzynskimaciej.pl/en/</loc>
-    <lastmod>2025-01-06T13:00:00+02:00</lastmod>
+    <lastmod>2025-02-10T18:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
@@ -15,8 +28,23 @@
                 href="https://blog.budzynskimaciej.pl/en/"
                 />
   </url><url>
+    <loc>https://blog.budzynskimaciej.pl/en/entags/</loc>
+    <lastmod>2025-02-10T18:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.budzynskimaciej.pl/en/entags/ai/</loc>
+    <lastmod>2025-02-10T18:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.budzynskimaciej.pl/en/entags/llm/</loc>
+    <lastmod>2025-02-10T18:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.budzynskimaciej.pl/en/entags/localai/</loc>
+    <lastmod>2025-02-10T18:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.budzynskimaciej.pl/en/entags/ollama/</loc>
+    <lastmod>2025-02-10T18:00:00+02:00</lastmod>
+  </url><url>
     <loc>https://blog.budzynskimaciej.pl/en/post/</loc>
-    <lastmod>2025-01-06T13:00:00+02:00</lastmod>
+    <lastmod>2025-02-10T18:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
@@ -53,9 +81,6 @@
                 hreflang="en-US"
                 href="https://blog.budzynskimaciej.pl/en/about/"
                 />
-  </url><url>
-    <loc>https://blog.budzynskimaciej.pl/en/entags/</loc>
-    <lastmod>2021-07-24T20:00:00+02:00</lastmod>
   </url><url>
     <loc>https://blog.budzynskimaciej.pl/en/entags/docker/</loc>
     <lastmod>2021-07-24T20:00:00+02:00</lastmod>

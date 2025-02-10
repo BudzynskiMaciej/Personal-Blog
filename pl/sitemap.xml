@@ -2,8 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.budzynskimaciej.pl/categories/ai/</loc>
+    <lastmod>2025-02-10T18:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.budzynskimaciej.pl/post/ai-and-llms/</loc>
+    <lastmod>2025-02-10T18:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://blog.budzynskimaciej.pl/en/post/ai-and-llms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl-PL"
+                href="https://blog.budzynskimaciej.pl/post/ai-and-llms/"
+                />
+  </url><url>
     <loc>https://blog.budzynskimaciej.pl/</loc>
-    <lastmod>2025-01-06T13:00:00+02:00</lastmod>
+    <lastmod>2025-02-10T18:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -16,7 +32,20 @@
                 />
   </url><url>
     <loc>https://blog.budzynskimaciej.pl/categories/</loc>
-    <lastmod>2025-01-06T13:00:00+02:00</lastmod>
+    <lastmod>2025-02-10T18:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.budzynskimaciej.pl/post/</loc>
+    <lastmod>2025-02-10T18:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://blog.budzynskimaciej.pl/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl-PL"
+                href="https://blog.budzynskimaciej.pl/post/"
+                />
   </url><url>
     <loc>https://blog.budzynskimaciej.pl/tags/go/</loc>
     <lastmod>2025-01-06T13:00:00+02:00</lastmod>
@@ -35,19 +64,6 @@
                 rel="alternate"
                 hreflang="pl-PL"
                 href="https://blog.budzynskimaciej.pl/post/site-update-and-changes/"
-                />
-  </url><url>
-    <loc>https://blog.budzynskimaciej.pl/post/</loc>
-    <lastmod>2025-01-06T13:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://blog.budzynskimaciej.pl/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl-PL"
-                href="https://blog.budzynskimaciej.pl/post/"
                 />
   </url><url>
     <loc>https://blog.budzynskimaciej.pl/tags/programming/</loc>
